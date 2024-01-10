@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/user/Documents/fainal/.git/TankKnight
+C:/Users/user/Documents/fainal/TankKnight
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49831
-Successfully changed project path to: C:/Users/user/Documents/fainal/.git/TankKnight
-C:/Users/user/Documents/fainal/.git/TankKnight
+62143
+Successfully changed project path to: C:/Users/user/Documents/fainal/TankKnight
+C:/Users/user/Documents/fainal/TankKnight
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,15 +49,15 @@ C:/Users/user/Documents/fainal/.git/TankKnight
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31344] Host "[IP] 192.168.197.1 [Port] 0 [Flags] 2 [Guid] 2798229120 [EditorId] 2798229120 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E8EHEE1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [35664] Host "[IP] 192.168.197.1 [Port] 0 [Flags] 2 [Guid] 2262938903 [EditorId] 2262938903 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E8EHEE1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31344] Host "[IP] 192.168.197.1 [Port] 0 [Flags] 2 [Guid] 2798229120 [EditorId] 2798229120 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E8EHEE1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [35664] Host "[IP] 192.168.197.1 [Port] 0 [Flags] 2 [Guid] 2262938903 [EditorId] 2262938903 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E8EHEE1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 1017.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 361.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.2f1 (d74737c6db50)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Documents/fainal/.git/TankKnight/Assets
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/fainal/TankKnight/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015220 seconds.
-- Loaded All Assemblies, in  0.746 seconds
+Registered in 0.026813 seconds.
+- Loaded All Assemblies, in  1.012 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.461 seconds
-Domain Reload Profiling: 1204ms
-	BeginReloadAssembly (285ms)
+- Finished resetting the current domain, in  1.403 seconds
+Domain Reload Profiling: 2416ms
+	BeginReloadAssembly (255ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (116ms)
-	LoadAllAssembliesAndSetupDomain (248ms)
-		LoadAssemblies (277ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (206ms)
+	LoadAllAssembliesAndSetupDomain (400ms)
+		LoadAssemblies (244ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (238ms)
-			TypeCache.Refresh (235ms)
-				TypeCache.ScanAssembly (212ms)
+		AnalyzeDomain (386ms)
+			TypeCache.Refresh (383ms)
+				TypeCache.ScanAssembly (350ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (462ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1407ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (367ms)
+		SetupLoadedEditorAssemblies (1166ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (18ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (23ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (224ms)
-			ProcessInitializeOnLoadMethodAttributes (105ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (607ms)
+			ProcessInitializeOnLoadMethodAttributes (497ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -114,53 +114,53 @@ Domain Reload Profiling: 1204ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\.git\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\.git\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  3.590 seconds
-Refreshing native plugins compatible for Editor in 10.21 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  4.060 seconds
+Refreshing native plugins compatible for Editor in 19.87 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.152 seconds
-Domain Reload Profiling: 4733ms
-	BeginReloadAssembly (254ms)
+- Finished resetting the current domain, in  2.171 seconds
+Domain Reload Profiling: 6229ms
+	BeginReloadAssembly (257ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (79ms)
-	LoadAllAssembliesAndSetupDomain (3181ms)
-		LoadAssemblies (2777ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (3624ms)
+		LoadAssemblies (2228ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (541ms)
-			TypeCache.Refresh (465ms)
-				TypeCache.ScanAssembly (432ms)
-			ScanForSourceGeneratedMonoScriptInfo (45ms)
-			ResolveRequiredComponents (31ms)
-	FinalizeReload (1153ms)
+		AnalyzeDomain (1495ms)
+			TypeCache.Refresh (1390ms)
+				TypeCache.ScanAssembly (1297ms)
+			ScanForSourceGeneratedMonoScriptInfo (74ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (2173ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (827ms)
+		SetupLoadedEditorAssemblies (1628ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (18ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (226ms)
-			ProcessInitializeOnLoadAttributes (428ms)
-			ProcessInitializeOnLoadMethodAttributes (111ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (257ms)
+			ProcessInitializeOnLoadAttributes (1058ms)
+			ProcessInitializeOnLoadMethodAttributes (257ms)
+			AfterProcessingInitializeOnLoad (29ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.32 seconds
-Refreshing native plugins compatible for Editor in 22.13 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (58ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 10.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4927 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (348.6 KB). Loaded Objects now: 5386.
-Memory consumption went from 195.6 MB to 195.3 MB.
-Total: 44.448300 ms (FindLiveObjects: 3.178000 ms CreateObjectMapping: 1.483000 ms MarkObjects: 35.338900 ms  DeleteObjects: 4.442900 ms)
+Unloading 4918 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (0.7 MB). Loaded Objects now: 5374.
+Memory consumption went from 180.4 MB to 179.6 MB.
+Total: 10.898800 ms (FindLiveObjects: 0.708600 ms CreateObjectMapping: 0.626400 ms MarkObjects: 8.575900 ms  DeleteObjects: 0.985600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -175,9 +175,2246 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3673671.418549 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf838204690c17767bba5a3a082540b0') in 0.052457 seconds
+  Time since last request: 3743214.457939 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)
+  artifactKey: Guid(02c796eab9dba7d4282a27b81609c2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free) using Guid(02c796eab9dba7d4282a27b81609c2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a17a8bcce34f6d79735443301d24cd') in 0.005628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.969488 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scenes
+  artifactKey: Guid(7ce95af9e1be86045980be33284e8767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scenes using Guid(7ce95af9e1be86045980be33284e8767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fad03bbee8794841cbfa004b3f81ab5') in 0.000836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.389407 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scenes/Test_Field.unity
+  artifactKey: Guid(0c6c6c4af707b55448fd190736aba425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scenes/Test_Field.unity using Guid(0c6c6c4af707b55448fd190736aba425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386f8670faeeb2b69cc08535742b726e') in 0.000522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.074538 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scenes/Town.unity
+  artifactKey: Guid(be7bcb770a1f63c49a93dd3d90f90c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scenes/Town.unity using Guid(be7bcb770a1f63c49a93dd3d90f90c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e52423e1dddd6aadd674395c7283be') in 0.002720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.129 seconds
+Refreshing native plugins compatible for Editor in 12.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.586 seconds
+Domain Reload Profiling: 8711ms
+	BeginReloadAssembly (683ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (420ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (2304ms)
+		LoadAssemblies (1177ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1308ms)
+			TypeCache.Refresh (1275ms)
+				TypeCache.ScanAssembly (1152ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (5587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1417ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (29ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (394ms)
+			ProcessInitializeOnLoadAttributes (728ms)
+			ProcessInitializeOnLoadMethodAttributes (210ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 18.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4835 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5377.
+Memory consumption went from 161.2 MB to 160.4 MB.
+Total: 17.388200 ms (FindLiveObjects: 0.982400 ms CreateObjectMapping: 0.846600 ms MarkObjects: 14.026200 ms  DeleteObjects: 1.530300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 447.861895 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Camera_Manager.prefab
+  artifactKey: Guid(e002b9de4290e0a4ea8fc2d05296e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Camera_Manager.prefab using Guid(e002b9de4290e0a4ea8fc2d05296e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b077b0dc2b873781e8ec10a6c25aa3c5') in 0.381737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Text_Damage.prefab
+  artifactKey: Guid(14e15a8878973664593b9aa0db462273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Text_Damage.prefab using Guid(14e15a8878973664593b9aa0db462273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67010983dfa0f188009b03407f14d08d') in 0.039108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 260.449507 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Sprites/Icon.png
+  artifactKey: Guid(29a9dd852f5232546add240f6931041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Sprites/Icon.png using Guid(29a9dd852f5232546add240f6931041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207777c4c8a6924adb7899a7b6b636e7') in 0.551484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Background_01.png
+  artifactKey: Guid(e0bdee3452b590e47946760f9109527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Background_01.png using Guid(e0bdee3452b590e47946760f9109527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca9730283679836cbe076cc3d4fb60a') in 0.221932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.124216 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Aiming_Control_Scripts
+  artifactKey: Guid(ebeda285f94f09e4986fd74e3b40800a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Aiming_Control_Scripts using Guid(ebeda285f94f09e4986fd74e3b40800a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1dfec4ba4cb7ca155f3e2d0ef3894d') in 0.002139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.702572 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/AimMarker_Control_CS.cs
+  artifactKey: Guid(a444eee3915b8e346a1c1a42e9a05c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/AimMarker_Control_CS.cs using Guid(a444eee3915b8e346a1c1a42e9a05c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07417a37bfd8f496f575163c2f28279a') in 0.001553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 214.039750 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Armor_Collider_CS.cs
+  artifactKey: Guid(1bcf20a36faac444397f9a413303d19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Armor_Collider_CS.cs using Guid(1bcf20a36faac444397f9a413303d19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cebb94e7cad6455c39357095629c7cc') in 0.002993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.799809 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Barrel_Control_CS.cs
+  artifactKey: Guid(53b7eabad32ecd1409dec2bc902faffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Barrel_Control_CS.cs using Guid(53b7eabad32ecd1409dec2bc902faffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7fa06b17add4cb16e86d992a29f2fc') in 0.004409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.614 seconds
+Refreshing native plugins compatible for Editor in 10.09 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.247 seconds
+Domain Reload Profiling: 10860ms
+	BeginReloadAssembly (892ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (585ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (2551ms)
+		LoadAssemblies (1242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1459ms)
+			TypeCache.Refresh (1428ms)
+				TypeCache.ScanAssembly (1236ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (7249ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2134ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (51ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (536ms)
+			ProcessInitializeOnLoadAttributes (1152ms)
+			ProcessInitializeOnLoadMethodAttributes (311ms)
+			AfterProcessingInitializeOnLoad (37ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Refreshing native plugins compatible for Editor in 17.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4835 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5389.
+Memory consumption went from 165.4 MB to 164.7 MB.
+Total: 19.444000 ms (FindLiveObjects: 1.108800 ms CreateObjectMapping: 1.253600 ms MarkObjects: 16.211400 ms  DeleteObjects: 0.866200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 541.814640 seconds.
+  path: Assets/Script/Tank
+  artifactKey: Guid(09b9a44d3990ac642a4aca15ccf3f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank using Guid(09b9a44d3990ac642a4aca15ccf3f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7b6d0c983a72fe0743019278cbc6f1') in 0.048629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.883198 seconds.
+  path: Assets/Script/Knight
+  artifactKey: Guid(7a82942710c261946b4f16804c1c2a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Knight using Guid(7a82942710c261946b4f16804c1c2a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954db0946b51527a6874b7ee7ce36680') in 0.001206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.922345 seconds.
+  path: Assets/Script/Stage
+  artifactKey: Guid(606f26330c5cad14f8abc7549e84c5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Stage using Guid(606f26330c5cad14f8abc7549e84c5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7578af6e684ba2146096cf9efa5b9e') in 0.000846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  4.507 seconds
+Refreshing native plugins compatible for Editor in 14.64 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.822 seconds
+Domain Reload Profiling: 9325ms
+	BeginReloadAssembly (926ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (531ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (3403ms)
+		LoadAssemblies (1716ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1907ms)
+			TypeCache.Refresh (1829ms)
+				TypeCache.ScanAssembly (1525ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (4823ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (965ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (28ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (257ms)
+			ProcessInitializeOnLoadAttributes (471ms)
+			ProcessInitializeOnLoadMethodAttributes (176ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 15.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4835 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5392.
+Memory consumption went from 165.4 MB to 164.7 MB.
+Total: 8.323500 ms (FindLiveObjects: 0.708900 ms CreateObjectMapping: 0.615400 ms MarkObjects: 6.102100 ms  DeleteObjects: 0.895300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34.141975 seconds.
+  path: Assets/Script/Stage/MapData.cs
+  artifactKey: Guid(526ebb7c6b15c7342a311fa02df736a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Stage/MapData.cs using Guid(526ebb7c6b15c7342a311fa02df736a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0f38e96aaf4a9d1eff76c9dd9dfa4d') in 0.004050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 36.222084 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8314a290961ecd06bb8e8d883627775') in 0.001387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.236 seconds
+Refreshing native plugins compatible for Editor in 5.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.149 seconds
+Domain Reload Profiling: 7382ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (900ms)
+		LoadAssemblies (457ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (538ms)
+			TypeCache.Refresh (503ms)
+				TypeCache.ScanAssembly (482ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (6150ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (24ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (610ms)
+			ProcessInitializeOnLoadAttributes (1236ms)
+			ProcessInitializeOnLoadMethodAttributes (374ms)
+			AfterProcessingInitializeOnLoad (55ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (51ms)
+Refreshing native plugins compatible for Editor in 6.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4836 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5396.
+Memory consumption went from 165.5 MB to 164.7 MB.
+Total: 11.350300 ms (FindLiveObjects: 1.383000 ms CreateObjectMapping: 0.884100 ms MarkObjects: 8.372700 ms  DeleteObjects: 0.708800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.157287 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0c7c5fcecf50b5ab9da2c6c51b65f5') in 0.004054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 51.564369 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6793c450c067560248cd07bf8f3f20e3') in 0.000860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.564269 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2ec2d2d77e2383cbd2e80d428e335e') in 0.001094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1203.780742 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de0f456fab7b7795a49ad3d1bf1702f') in 0.019902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.688443 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a876c92b9dd8dd40a6ab38b8399748') in 0.002187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 120.682137 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201bbcd33a013908b9613bebd4b8cfbb') in 0.007834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.101131 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23db6877f8262c0c95a26431a7bd3de1') in 0.002074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 108.419521 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af32502a5649b1bd807fe9acecaa48c8') in 0.000854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.081887 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14eb5ee9f6c686e81ae2456307e200f') in 0.000600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 72.380562 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6db4e1aa06ddffc2518cfb7baec5015') in 0.001171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 39.577975 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4354162642c9158146d8dd4a7d0c7d9') in 0.000936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 21.552 seconds
+Refreshing native plugins compatible for Editor in 11.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.619 seconds
+Domain Reload Profiling: 28156ms
+	BeginReloadAssembly (2051ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (246ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (980ms)
+	RebuildCommonClasses (123ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (182ms)
+	LoadAllAssembliesAndSetupDomain (19136ms)
+		LoadAssemblies (18594ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (905ms)
+			TypeCache.Refresh (817ms)
+				TypeCache.ScanAssembly (669ms)
+			ScanForSourceGeneratedMonoScriptInfo (53ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (6621ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1806ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (124ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (901ms)
+			ProcessInitializeOnLoadAttributes (615ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 9.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5400.
+Memory consumption went from 165.5 MB to 164.7 MB.
+Total: 12.122800 ms (FindLiveObjects: 0.806000 ms CreateObjectMapping: 0.439400 ms MarkObjects: 9.672900 ms  DeleteObjects: 1.202800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 437.918342 seconds.
+  path: Assets/Script/Tank/ScriptableObjectCreatorOnInspector.cs
+  artifactKey: Guid(022e96c3084ffbd48aec6cf8f876543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/ScriptableObjectCreatorOnInspector.cs using Guid(022e96c3084ffbd48aec6cf8f876543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773b344da7530e4cd654ffa8a52e604d') in 0.022574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 91.906937 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e81ed3346f9a643a8b3120d68577cca') in 0.621151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/SD_Firefly.fbx
+  artifactKey: Guid(fd83e6cb9fb13014fbdfae82bc65d764) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/SD_Firefly.fbx using Guid(fd83e6cb9fb13014fbdfae82bc65d764) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd74cb99ea816eb585ef5192642c4e410') in 0.205033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 124
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Editor/Track_Scroll_CSEditor.cs
+  artifactKey: Guid(11330cf308455cc43bb46bb45fc37fc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Editor/Track_Scroll_CSEditor.cs using Guid(11330cf308455cc43bb46bb45fc37fc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9dbda7f750d02cb93bb2fbfd60fd9c4e') in 0.027082 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/SE_Hit.ogg
+  artifactKey: Guid(95f62d26575ca6544ac963aeb980f59c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/SE_Hit.ogg using Guid(95f62d26575ca6544ac963aeb980f59c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae82bd3bc90d6bd5e93687cb32f7b4f1') in 0.182944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '727a941b3872e1af6055c7d1dff964c7') in 0.296841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Grass_Tile_3x3.prefab
+  artifactKey: Guid(f97b1344f5c711b4b922c665b6c03f72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Grass_Tile_3x3.prefab using Guid(f97b1344f5c711b4b922c665b6c03f72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33aab93411e9c3dd170cd6369508ad65') in 0.047218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Barrel_Control_CS.cs
+  artifactKey: Guid(53b7eabad32ecd1409dec2bc902faffc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Barrel_Control_CS.cs using Guid(53b7eabad32ecd1409dec2bc902faffc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f048b8c302fbb6eb56e081b58eea6fc2') in 0.025600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Damage_Control_CS.cs
+  artifactKey: Guid(fb31f01b9cbfdb74aaff0d4b0e3d3dfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Damage_Control_CS.cs using Guid(fb31f01b9cbfdb74aaff0d4b0e3d3dfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95bbb533655f3db3707c0be85ea17879') in 0.024966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/SE_Fire.ogg
+  artifactKey: Guid(98ee43f119dde354a9d69cbe815e5a98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/SE_Fire.ogg using Guid(98ee43f119dde354a9d69cbe815e5a98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2b0ce777d5a96377c587db4042f9be2') in 0.158668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Aiming_Control_Scripts/Aiming_Control_Input_01_Desktop_CS.cs
+  artifactKey: Guid(6b3f771e263ed234fad0d3214ad9db19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Aiming_Control_Scripts/Aiming_Control_Input_01_Desktop_CS.cs using Guid(6b3f771e263ed234fad0d3214ad9db19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9fba6b68838a671f6800c10099b87a4') in 0.046783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/Particle_Trail.mat
+  artifactKey: Guid(16f30964ac964104690babd68f3268f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/Particle_Trail.mat using Guid(16f30964ac964104690babd68f3268f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4b40b4a636e85e4c6cb9a5dfd9e47c5') in 0.095213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Water_Tile_1x3.prefab
+  artifactKey: Guid(2ca467be9f0f6c84785f3c01c3494032) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Water_Tile_1x3.prefab using Guid(2ca467be9f0f6c84785f3c01c3494032) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7249b30558a5a4ba60e7bd5e9dc85aa7') in 0.040788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Grass_Tile_1x3.prefab
+  artifactKey: Guid(8aad1ca8001ea4248a75e9ec2308e683) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Grass_Tile_1x3.prefab using Guid(8aad1ca8001ea4248a75e9ec2308e683) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58954f759dc78292d53ecfc2f81b6530') in 0.059610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/General_Settings_CS.cs
+  artifactKey: Guid(ba60eb902f4ea364ca29936928de0a8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/General_Settings_CS.cs using Guid(ba60eb902f4ea364ca29936928de0a8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc60e1a8ebdbd9f65f83b1c2e5e9b174') in 0.028105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/GunCamera_Control_Scripts/GunCamera_Control_Input_00_Base_CS.cs
+  artifactKey: Guid(dc7de1890068a7c43a5b591a7cf3007e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/GunCamera_Control_Scripts/GunCamera_Control_Input_00_Base_CS.cs using Guid(dc7de1890068a7c43a5b591a7cf3007e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c33c504b7def6117865169457d7aa0f') in 0.056140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001084 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7479bcef09ac264613493b150be19ff') in 0.065890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/SD_Tiger-I_2.0.prefab
+  artifactKey: Guid(37011bb60ee4c374a96651f3a67b4ade) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/SD_Tiger-I_2.0.prefab using Guid(37011bb60ee4c374a96651f3a67b4ade) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '645ad93e06008d703323e212a477a48d') in 0.334263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 430
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Text_Damage.prefab
+  artifactKey: Guid(14e15a8878973664593b9aa0db462273) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Text_Damage.prefab using Guid(14e15a8878973664593b9aa0db462273) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '973181b6e0b9419918e1037151be727d') in 0.073265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Wheel_Control_Scripts/Wheel_Control_Input_00_Base_CS.cs
+  artifactKey: Guid(1f752359cd549664e86acefe84dc69c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Wheel_Control_Scripts/Wheel_Control_Input_00_Base_CS.cs using Guid(1f752359cd549664e86acefe84dc69c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e5dcc597d614230c9ef550888d34b1f') in 0.052053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Script/Tank/ScriptableObjectCreatorOnInspector.cs
+  artifactKey: Guid(022e96c3084ffbd48aec6cf8f876543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Tank/ScriptableObjectCreatorOnInspector.cs using Guid(022e96c3084ffbd48aec6cf8f876543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f62eeadf4c8b47ea4324bf9731a8a2d') in 0.026957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Destroyed_Effect.prefab
+  artifactKey: Guid(85ca98222c1ec734bb11ee2954a38b99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Destroyed_Effect.prefab using Guid(85ca98222c1ec734bb11ee2954a38b99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '109d8b52f184091ebabef3becb059a39') in 0.028473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/House_A.prefab
+  artifactKey: Guid(a02ec038ad8e92240888af738003b3d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/House_A.prefab using Guid(a02ec038ad8e92240888af738003b3d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c25960fe38a4905edf1ea7eeb54a1545') in 0.036420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Armor_Collider_CS.cs
+  artifactKey: Guid(1bcf20a36faac444397f9a413303d19d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Armor_Collider_CS.cs using Guid(1bcf20a36faac444397f9a413303d19d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b46eb801064aed7cf3ac5ff373740af3') in 0.026848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/ReadMe [Ver.2.0]/[01] How to Start (Ver.2.0).txt
+  artifactKey: Guid(b64d6bda951883a408ef32f33429e08f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/ReadMe [Ver.2.0]/[01] How to Start (Ver.2.0).txt using Guid(b64d6bda951883a408ef32f33429e08f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23b8396c5377284b039c03e736b3ba3f') in 0.031025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/GunCamera_Control_Scripts/GunCamera_Control_CS.cs
+  artifactKey: Guid(a58e1b6ec91c11f4596b16388d7b89cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/GunCamera_Control_Scripts/GunCamera_Control_CS.cs using Guid(a58e1b6ec91c11f4596b16388d7b89cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '062bb7c2229889da60193a63c1b06c36') in 0.025207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Wheel_Rotate_CS.cs
+  artifactKey: Guid(8eeb9a3b851804a4488216cff4fa00aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Wheel_Rotate_CS.cs using Guid(8eeb9a3b851804a4488216cff4fa00aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20338f103800e770f8a96b506027eef3') in 0.023642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Camera_Zoom_Scripts/Camera_Zoom_Input_00_Base_CS.cs
+  artifactKey: Guid(9c216396014f5144a8dae1646ecdd93d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Camera_Zoom_Scripts/Camera_Zoom_Input_00_Base_CS.cs using Guid(9c216396014f5144a8dae1646ecdd93d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc0a259acce9c7e87b3e182d72db497c') in 0.023386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Layer_Settings_CS.cs
+  artifactKey: Guid(ac7e74bcaa1065141970f1d4835722d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Layer_Settings_CS.cs using Guid(ac7e74bcaa1065141970f1d4835722d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '037fe3d4ad07bedf0bcb11406da37156') in 0.022044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Bridges/Bridges.fbx
+  artifactKey: Guid(5925e0828636fee469c72602e6e39dbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Bridges/Bridges.fbx using Guid(5925e0828636fee469c72602e6e39dbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55a4818eb5b7d6465065821172a3ff6d') in 0.067836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_TrackBelt_AO.png
+  artifactKey: Guid(be46e611a58040c478819ceb3d0331c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_TrackBelt_AO.png using Guid(be46e611a58040c478819ceb3d0331c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2caa844c5b3739e84e08124717c34a5') in 0.109123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Tree/Tree.fbx
+  artifactKey: Guid(7898deb5a5176174e8f86fca527fe3fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Tree/Tree.fbx using Guid(7898deb5a5176174e8f86fca527fe3fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96f5fb8a8a97c9927f4c729f479588d7') in 0.084491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Touch_Controls.prefab
+  artifactKey: Guid(157ad9db6ee8b0247a33cc70bbd2459b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Touch_Controls.prefab using Guid(157ad9db6ee8b0247a33cc70bbd2459b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4564eeabb30617057c4716d9964bdc00') in 0.057405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Damage_Display_CS.cs
+  artifactKey: Guid(ea90b6b91e15ae94eb1cf938765b2cb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Damage_Display_CS.cs using Guid(ea90b6b91e15ae94eb1cf938765b2cb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '711af106b613f53f4840f8037e10bcf9') in 0.027868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_TrackBelt_Mobile.png
+  artifactKey: Guid(a10a84a958bbd3b4d9597b0e3705e7b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_TrackBelt_Mobile.png using Guid(a10a84a958bbd3b4d9597b0e3705e7b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '024007dd166fa32a61f4de85d11f1acc') in 0.058719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Camera_Zoom_Scripts/Camera_Zoom_Input_01_Desktop_CS.cs
+  artifactKey: Guid(933740addb7b470409fac3a9a0a80e8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Camera_Zoom_Scripts/Camera_Zoom_Input_01_Desktop_CS.cs using Guid(933740addb7b470409fac3a9a0a80e8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b09500d2fec4d1980c34abb35946ee79') in 0.027600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Tiger-I/Materials/SD_Tiger-I_TrackBelt_Bump.png
+  artifactKey: Guid(79b83cb3ca2a8384cb2b41c1dc139dcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Tiger-I/Materials/SD_Tiger-I_TrackBelt_Bump.png using Guid(79b83cb3ca2a8384cb2b41c1dc139dcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41c4e2a52d36f7392d60fcc2ef69ea57') in 0.067261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Ground_Tile/Materials/For_Stone.mat
+  artifactKey: Guid(212cd86843cae6341975f8d5037ff38a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Ground_Tile/Materials/For_Stone.mat using Guid(212cd86843cae6341975f8d5037ff38a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b97de5b9011b81a35817e73e41be3b4') in 0.195610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/ReadMe [Ver.2.0]/Online Manual (Ver.2.0).pdf
+  artifactKey: Guid(fbf155e6a7afa1240b7664ec52bdcecb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/ReadMe [Ver.2.0]/Online Manual (Ver.2.0).pdf using Guid(fbf155e6a7afa1240b7664ec52bdcecb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4da5f0e4b295e1001b5e2abeebbedaf0') in 0.045488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23cc147734474b1e29c5588a031b2530') in 0.212288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Ground_Tile/Materials/Tex_Water.png
+  artifactKey: Guid(a10300ea64d06fa4cbcaa4cb3aa52175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Ground_Tile/Materials/Tex_Water.png using Guid(a10300ea64d06fa4cbcaa4cb3aa52175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a46176db4e9e2f883c491dbdbc25d92e') in 0.075640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/Terrain/layer_Tex_Grass(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+  artifactKey: Guid(d16859ef017b53840977a63acefaf977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/Terrain/layer_Tex_Grass(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(d16859ef017b53840977a63acefaf977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7bae3b330e169a02d3f3c54ff51a87c') in 0.065032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '758dc22c4e856f79be18582af228af54') in 0.142795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Bullet_Broken.prefab
+  artifactKey: Guid(e193bd6b30c4fcf488bebb7cf754714c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Bullet_Broken.prefab using Guid(e193bd6b30c4fcf488bebb7cf754714c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fe8cdf996b74faa5d364d33c08983ea') in 0.053723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/House_A/Materials/House_A_Low_Base_AO.png
+  artifactKey: Guid(0a2b5169c904b7048bfbf542c161f5df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/House_A/Materials/House_A_Low_Base_AO.png using Guid(0a2b5169c904b7048bfbf542c161f5df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c14d4addade8fb009d4c3efbe3bcc4b8') in 0.062284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Tree/Materials/Tree_Base_AO.png
+  artifactKey: Guid(e7cfaddbb41fe0146b76de6351559dbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Tree/Materials/Tree_Base_AO.png using Guid(e7cfaddbb41fe0146b76de6351559dbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbf93460f249eeaf6ffc26021145eb14') in 0.070032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/House_A/Materials/House_A_Low_Base.png
+  artifactKey: Guid(4e7651b0af9f6c24dba42d86c48a202e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/House_A/Materials/House_A_Low_Base.png using Guid(4e7651b0af9f6c24dba42d86c48a202e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06e5b4a1b7e4bcf9e19fb53873abb27e') in 0.054238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_TrackBelt_Bump.png
+  artifactKey: Guid(0e0ff85c937a3c349b39e5c1d9bfadc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_TrackBelt_Bump.png using Guid(0e0ff85c937a3c349b39e5c1d9bfadc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bdc4fcbbb868cbf8e84abd27d55a8df4') in 0.072829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Camera_Rotate_Scripts/Camera_Rotate_Input_00_Base_CS.cs
+  artifactKey: Guid(3a80428f09314494dab011904a0425d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Camera_Rotate_Scripts/Camera_Rotate_Input_00_Base_CS.cs using Guid(3a80428f09314494dab011904a0425d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c4a0d892fe3059355f86650fc3331c9') in 0.049738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/MuzzleFire.prefab
+  artifactKey: Guid(003273172d23e604cbc8af71df1d883a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/MuzzleFire.prefab using Guid(003273172d23e604cbc8af71df1d883a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7115d7ac028168530c39913cf15ba9f9') in 0.028082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Hedge_A.prefab
+  artifactKey: Guid(433510086a5077949858fe701d425a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Hedge_A.prefab using Guid(433510086a5077949858fe701d425a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cb229ae1c62d3c9dd909484217d5f76') in 0.055943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Ground_Tile/Materials/Tex_Grass.png
+  artifactKey: Guid(219cf8c9b41de4240850acf8965fbeeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Ground_Tile/Materials/Tex_Grass.png using Guid(219cf8c9b41de4240850acf8965fbeeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ee8fe11910331c74838f6367510108e') in 0.071302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Delete_Timer_CS.cs
+  artifactKey: Guid(5ac5e57c8ae3f3945b1c29efa81c6749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Delete_Timer_CS.cs using Guid(5ac5e57c8ae3f3945b1c29efa81c6749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '487da68db726f547011ac47c443682d8') in 0.029988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Aiming_Control_Scripts/Aiming_Control_Input_02_Mobile_CS.cs
+  artifactKey: Guid(4a399055650f48b4a93b9fd967c131f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Aiming_Control_Scripts/Aiming_Control_Input_02_Mobile_CS.cs using Guid(4a399055650f48b4a93b9fd967c131f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0abea18ca657e34b3c1ab85cfa851288') in 0.048217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Tiger-I/Materials/SD_Tiger-I_Wheel.png
+  artifactKey: Guid(df76d658d18112d4f965d4adf8494009) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Tiger-I/Materials/SD_Tiger-I_Wheel.png using Guid(df76d658d18112d4f965d4adf8494009) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63df562253a3a522f57b9ac5b361a287') in 0.057064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Settings/URP-Balanced-Renderer.asset
+  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Balanced-Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab261f043f51793dac90aa4c3498663f') in 0.080599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Hedge/Hedge.fbx
+  artifactKey: Guid(20753350ba7243940b8b6c9243a2d74c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Hedge/Hedge.fbx using Guid(20753350ba7243940b8b6c9243a2d74c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b2d781713b3e02bfcf023191986042d') in 0.074156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Aim_Marker.png
+  artifactKey: Guid(e03098c57289953479b38f41112b9271) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Aim_Marker.png using Guid(e03098c57289953479b38f41112b9271) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95acd4e3bb92fbc0bc5496ea6cc38aa8') in 0.053136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Water_Tile.prefab
+  artifactKey: Guid(65091ea4068294a438d8ae00f68e1e2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Water_Tile.prefab using Guid(65091ea4068294a438d8ae00f68e1e2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef38f8bc7957a1656e5ce7d2470fe7cf') in 0.028061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Tiger-I/Materials/SD_Tiger-I_Wheel.mat
+  artifactKey: Guid(86fe2e6f8afa24047887a048a6866ca1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Tiger-I/Materials/SD_Tiger-I_Wheel.mat using Guid(86fe2e6f8afa24047887a048a6866ca1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bf0bdc465b64551b7405fd6fb742f17') in 0.029221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Wheel_Control_Scripts/Wheel_Control_CS.cs
+  artifactKey: Guid(4ce03395b0d1b6c4e9fd7cee97a6f4f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Wheel_Control_Scripts/Wheel_Control_CS.cs using Guid(4ce03395b0d1b6c4e9fd7cee97a6f4f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eee89b81bdc1ff17ac4df458cef748e8') in 0.024928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Tiger-I/Materials/SD_Tiger-I_Base.mat
+  artifactKey: Guid(1b6dabbb7f22a344cbfa13f0db5f7ad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Tiger-I/Materials/SD_Tiger-I_Base.mat using Guid(1b6dabbb7f22a344cbfa13f0db5f7ad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40aa0b5c6074e1c6b094f674c4b39424') in 0.028395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/Smoke_01.png
+  artifactKey: Guid(ebc6568856c7bfc46a6c3ee082bbd2d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/Smoke_01.png using Guid(ebc6568856c7bfc46a6c3ee082bbd2d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '241f2ffb84aeca5424418caee4f3acb9') in 0.049609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/Bullet/SD_Bullet.fbx
+  artifactKey: Guid(d1e53f13e3243784e865dbbe10c2014d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/Bullet/SD_Bullet.fbx using Guid(d1e53f13e3243784e865dbbe10c2014d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '986c4f2b5dfb672ddc4257b935b2df7e') in 0.071599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '382b1a33cbf50a5e4ba5ec36464db996') in 0.086463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Hedge_Broken.prefab
+  artifactKey: Guid(76642ad27458c924b9bfd516ae36ea9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Hedge_Broken.prefab using Guid(76642ad27458c924b9bfd516ae36ea9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93d982051b27e030449baeef25376674') in 0.030530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Hedge/Materials/Hedge_Base.png
+  artifactKey: Guid(ae7d059ea178b9a438f335e1ee548621) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Hedge/Materials/Hedge_Base.png using Guid(ae7d059ea178b9a438f335e1ee548621) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '586850489b05184b8f4eb3fcda7612fc') in 0.052153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/Terrain/layer_Tex_Sand(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+  artifactKey: Guid(18e089ba5da082847a2be4a34354281e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/Terrain/layer_Tex_Sand(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(18e089ba5da082847a2be4a34354281e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4591f1b7632048e3e03246076195ce0') in 0.027549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/SE_Engine.ogg
+  artifactKey: Guid(152276e7f391445468f04b1f6cfd5829) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/SE_Engine.ogg using Guid(152276e7f391445468f04b1f6cfd5829) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd5b32bfb1123379352420f0df1196bd') in 0.186121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/SE_Control_CS.cs
+  artifactKey: Guid(e2db6f1e173b05547b035a4bf8f18886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/SE_Control_CS.cs using Guid(e2db6f1e173b05547b035a4bf8f18886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc87d2b9dc707fbc52ea646c8af740da') in 0.021868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_TrackBelt.png
+  artifactKey: Guid(6e2441abb38d8e5498d2c5cd5cce970c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_TrackBelt.png using Guid(6e2441abb38d8e5498d2c5cd5cce970c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8960d90258419c513f5750dbc240c60') in 0.053507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Game_Controller_CS.cs
+  artifactKey: Guid(01bce5a7e9ea8fc4f8e43e6d863f1b83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Game_Controller_CS.cs using Guid(01bce5a7e9ea8fc4f8e43e6d863f1b83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9baac4b1109dcde9210a3b7fc09ee77d') in 0.020398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Track_Deform_CS.cs
+  artifactKey: Guid(c00b310d73b4e444cba0d18de9bd69e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Track_Deform_CS.cs using Guid(c00b310d73b4e444cba0d18de9bd69e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '452aadb9d7507311095d0f448a5304fa') in 0.023395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Button_01.png
+  artifactKey: Guid(275ff55f9b760a440bda5911b0f6d1f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Button_01.png using Guid(275ff55f9b760a440bda5911b0f6d1f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b8321a742e2e105684754270117eecb') in 0.056523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Ground_Tile/Materials/Tex_Wall.png
+  artifactKey: Guid(a7ac4ac45f8306c4d93debcbece74dc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Ground_Tile/Materials/Tex_Wall.png using Guid(a7ac4ac45f8306c4d93debcbece74dc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a472842775c4dd2824ba7d3a31d0c610') in 0.054801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Ground_Tile/Ground_Tile.fbx
+  artifactKey: Guid(8800e4cfefc1fb54dbf24d929cd60c60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Ground_Tile/Ground_Tile.fbx using Guid(8800e4cfefc1fb54dbf24d929cd60c60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1afa1837e5d3448fa07c8d72f122a9e3') in 0.063235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fad9f295062dc96f04271dbb2a3c46c7') in 0.022426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/SD_Firefly_2.0.prefab
+  artifactKey: Guid(5c0378b47d76c394dbb09985cf5dc360) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/SD_Firefly_2.0.prefab using Guid(5c0378b47d76c394dbb09985cf5dc360) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2be1fb21f4a3022d5de0c54a118c3a89') in 0.050244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Ground_Tile/Materials/For_Grass.mat
+  artifactKey: Guid(e32ce1e816990e145926470a18c51dc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/Ground_Tile/Materials/For_Grass.mat using Guid(e32ce1e816990e145926470a18c51dc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '257b7bea36fb9d2eb45a68053191c7c5') in 0.028245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/House_A/Materials/House_A_Low_Base.mat
+  artifactKey: Guid(c55a3fc31895ed640b0e4a0510cd1642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/Props/House_A/Materials/House_A_Low_Base.mat using Guid(c55a3fc31895ed640b0e4a0510cd1642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a856abbbda57737d58d043ee5ca85bda') in 0.031041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Bullet.prefab
+  artifactKey: Guid(b0524b2af2a10754aa6797e704fa9541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Bullet.prefab using Guid(b0524b2af2a10754aa6797e704fa9541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54d7f5dbb81d3b87f971d7496f35ab90') in 0.059272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Camera_Zoom_Scripts/Camera_Zoom_CS.cs
+  artifactKey: Guid(831af9534d83c424c83704a99aad130f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Camera_Zoom_Scripts/Camera_Zoom_CS.cs using Guid(831af9534d83c424c83704a99aad130f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfc8c92767030f0e5c439ea828df892e') in 0.023987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Camera_Zoom_Scripts/Camera_Zoom_Input_02_Mobile_CS.cs
+  artifactKey: Guid(cd2f56ca7209c784897ee9d7d59f2d51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Camera_Zoom_Scripts/Camera_Zoom_Input_02_Mobile_CS.cs using Guid(cd2f56ca7209c784897ee9d7d59f2d51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f74cc48a3cffd306fee9c244bc2f9ed') in 0.022000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/MainBody_Settings_CS.cs
+  artifactKey: Guid(572a33a29cf301441a53b7c33bfcf226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/MainBody_Settings_CS.cs using Guid(572a33a29cf301441a53b7c33bfcf226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a75fe601348b4941613eb1860933987') in 0.023161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scenes/Test_Field.unity
+  artifactKey: Guid(0c6c6c4af707b55448fd190736aba425) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scenes/Test_Field.unity using Guid(0c6c6c4af707b55448fd190736aba425) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2254440398bbebf648ada2d2ab1d0d6b') in 0.021844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Key_Bindings_CS.cs
+  artifactKey: Guid(e7777a55205d4fb468d237ffe55499ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Key_Bindings_CS.cs using Guid(e7777a55205d4fb468d237ffe55499ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '633df46699c38571101ced70f284be38') in 0.024813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/ID_Control_CS.cs
+  artifactKey: Guid(2ab668a0c7225234fa2deed3a26791e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/ID_Control_CS.cs using Guid(2ab668a0c7225234fa2deed3a26791e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa4fe78da78291249f64b96fdeec842b') in 0.026842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Grass_Tile.prefab
+  artifactKey: Guid(3d8ff0b073bc8664e93005a91c27d47a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Grass_Tile.prefab using Guid(3d8ff0b073bc8664e93005a91c27d47a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c94a210711e244dc43633f547cc9428a') in 0.053469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Scripts/Turret_Finishing_CS.cs
+  artifactKey: Guid(e1d6dc7ad4b9c554081ba7074e6ede9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Scripts/Turret_Finishing_CS.cs using Guid(e1d6dc7ad4b9c554081ba7074e6ede9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c239f1938ac4815e3f703d461287120c') in 0.030118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (0.7 MB). Loaded Objects now: 5403.
+Memory consumption went from 92.5 MB to 91.7 MB.
+Total: 23.520700 ms (FindLiveObjects: 0.472800 ms CreateObjectMapping: 0.438100 ms MarkObjects: 21.482900 ms  DeleteObjects: 1.125500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 100.110497 seconds.
+  path: Assets/Script/Tank/ScriptableObjectCreatorOnInspector.cs
+  artifactKey: Guid(022e96c3084ffbd48aec6cf8f876543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Tank/ScriptableObjectCreatorOnInspector.cs using Guid(022e96c3084ffbd48aec6cf8f876543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9add0cdbe85ca08620df0e44646a4ec9') in 0.033611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 14.477 seconds
+Refreshing native plugins compatible for Editor in 5.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.214 seconds
+Domain Reload Profiling: 17692ms
+	BeginReloadAssembly (542ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (306ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (13800ms)
+		LoadAssemblies (13192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (766ms)
+			TypeCache.Refresh (678ms)
+				TypeCache.ScanAssembly (511ms)
+			ScanForSourceGeneratedMonoScriptInfo (69ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (3218ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1239ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (79ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (307ms)
+			ProcessInitializeOnLoadAttributes (539ms)
+			ProcessInitializeOnLoadMethodAttributes (265ms)
+			AfterProcessingInitializeOnLoad (29ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Refreshing native plugins compatible for Editor in 18.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5406.
+Memory consumption went from 166.2 MB to 165.4 MB.
+Total: 21.226200 ms (FindLiveObjects: 1.612600 ms CreateObjectMapping: 0.749300 ms MarkObjects: 17.478700 ms  DeleteObjects: 1.380100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 58.571160 seconds.
+  path: Assets/Script/Tank/ScriptableObjectCreatorOnInspector.cs
+  artifactKey: Guid(022e96c3084ffbd48aec6cf8f876543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/ScriptableObjectCreatorOnInspector.cs using Guid(022e96c3084ffbd48aec6cf8f876543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d6a96889f50f69152b30383245013a') in 0.014385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 60.118638 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9176a89885cb1b38c0dcde32087cb43f') in 0.001874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.914 seconds
+Refreshing native plugins compatible for Editor in 4.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.108 seconds
+Domain Reload Profiling: 5019ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (1545ms)
+		LoadAssemblies (774ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (877ms)
+			TypeCache.Refresh (820ms)
+				TypeCache.ScanAssembly (662ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (3108ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (658ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (172ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5409.
+Memory consumption went from 166.1 MB to 165.4 MB.
+Total: 4.914200 ms (FindLiveObjects: 0.407000 ms CreateObjectMapping: 0.386300 ms MarkObjects: 3.740300 ms  DeleteObjects: 0.379600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 76.857926 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dab5da0a997c1b7cbbaa2b51574556') in 0.038274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.380 seconds
+Refreshing native plugins compatible for Editor in 5.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.653 seconds
+Domain Reload Profiling: 4028ms
+	BeginReloadAssembly (322ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (122ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (934ms)
+		LoadAssemblies (652ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (395ms)
+			TypeCache.Refresh (374ms)
+				TypeCache.ScanAssembly (358ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2654ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (657ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (178ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5412.
+Memory consumption went from 166.1 MB to 165.4 MB.
+Total: 4.804700 ms (FindLiveObjects: 0.387000 ms CreateObjectMapping: 0.377700 ms MarkObjects: 3.590300 ms  DeleteObjects: 0.448800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.349513 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71214ed41e04b890cfeea59acfd9f165') in 0.002478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.369 seconds
+Refreshing native plugins compatible for Editor in 11.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.221 seconds
+Domain Reload Profiling: 5582ms
+	BeginReloadAssembly (400ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (1704ms)
+		LoadAssemblies (838ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1062ms)
+			TypeCache.Refresh (984ms)
+				TypeCache.ScanAssembly (946ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (57ms)
+	FinalizeReload (3223ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1289ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (351ms)
+			ProcessInitializeOnLoadAttributes (682ms)
+			ProcessInitializeOnLoadMethodAttributes (198ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 4.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5415.
+Memory consumption went from 166.1 MB to 165.4 MB.
+Total: 4.626500 ms (FindLiveObjects: 0.424700 ms CreateObjectMapping: 0.443600 ms MarkObjects: 3.248700 ms  DeleteObjects: 0.508500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.122 seconds
+Refreshing native plugins compatible for Editor in 5.47 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.580 seconds
+Domain Reload Profiling: 3698ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (780ms)
+		LoadAssemblies (430ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (461ms)
+			TypeCache.Refresh (434ms)
+				TypeCache.ScanAssembly (414ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2581ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (602ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5418.
+Memory consumption went from 166.1 MB to 165.4 MB.
+Total: 4.254500 ms (FindLiveObjects: 0.401000 ms CreateObjectMapping: 0.356800 ms MarkObjects: 2.913300 ms  DeleteObjects: 0.582700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66.332502 seconds.
+  path: Assets/Script/Tank/ScriptableObjectCreatorOnInspector.cs
+  artifactKey: Guid(022e96c3084ffbd48aec6cf8f876543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/ScriptableObjectCreatorOnInspector.cs using Guid(022e96c3084ffbd48aec6cf8f876543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409780ed1cdee5dafa1f44ba569ebb78') in 0.002664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.299824 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5e781a2774cbe3ca08c9d44a325402') in 0.000933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.208 seconds
+Refreshing native plugins compatible for Editor in 6.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.457 seconds
+Domain Reload Profiling: 2661ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (908ms)
+		LoadAssemblies (392ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (597ms)
+			TypeCache.Refresh (568ms)
+				TypeCache.ScanAssembly (547ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1457ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (653ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5421.
+Memory consumption went from 166.3 MB to 165.6 MB.
+Total: 4.233200 ms (FindLiveObjects: 0.410800 ms CreateObjectMapping: 0.378200 ms MarkObjects: 3.087200 ms  DeleteObjects: 0.355800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.325 seconds
+Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.789 seconds
+Domain Reload Profiling: 7106ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (997ms)
+		LoadAssemblies (463ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (621ms)
+			TypeCache.Refresh (593ms)
+				TypeCache.ScanAssembly (573ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (5791ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1511ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (406ms)
+			ProcessInitializeOnLoadAttributes (781ms)
+			ProcessInitializeOnLoadMethodAttributes (255ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Refreshing native plugins compatible for Editor in 4.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5424.
+Memory consumption went from 166.3 MB to 165.6 MB.
+Total: 4.729000 ms (FindLiveObjects: 0.427300 ms CreateObjectMapping: 0.468600 ms MarkObjects: 3.405600 ms  DeleteObjects: 0.426600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.268 seconds
+Refreshing native plugins compatible for Editor in 5.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.594 seconds
+Domain Reload Profiling: 3858ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (883ms)
+		LoadAssemblies (471ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (527ms)
+			TypeCache.Refresh (504ms)
+				TypeCache.ScanAssembly (490ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2595ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (697ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5427.
+Memory consumption went from 166.3 MB to 165.6 MB.
+Total: 4.506300 ms (FindLiveObjects: 0.416400 ms CreateObjectMapping: 0.436900 ms MarkObjects: 3.268500 ms  DeleteObjects: 0.383700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 94.708913 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b6e9686f8c90b018042b0440141260') in 0.010439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.190 seconds
+Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.539 seconds
+Domain Reload Profiling: 2725ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (858ms)
+		LoadAssemblies (425ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (531ms)
+			TypeCache.Refresh (502ms)
+				TypeCache.ScanAssembly (486ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1540ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (696ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (178ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 4.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5430.
+Memory consumption went from 166.3 MB to 165.6 MB.
+Total: 3.834600 ms (FindLiveObjects: 0.422300 ms CreateObjectMapping: 0.547500 ms MarkObjects: 2.511300 ms  DeleteObjects: 0.352700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.716571 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cfcf424c34acdc3ec5fbf5b41ce33e') in 0.003134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.182 seconds
+Refreshing native plugins compatible for Editor in 5.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.206 seconds
+Domain Reload Profiling: 3385ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (817ms)
+		LoadAssemblies (440ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (488ms)
+			TypeCache.Refresh (456ms)
+				TypeCache.ScanAssembly (437ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2207ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1279ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (241ms)
+			ProcessInitializeOnLoadAttributes (760ms)
+			ProcessInitializeOnLoadMethodAttributes (212ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 18.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5433.
+Memory consumption went from 166.3 MB to 165.6 MB.
+Total: 12.406700 ms (FindLiveObjects: 0.873200 ms CreateObjectMapping: 0.799900 ms MarkObjects: 9.724800 ms  DeleteObjects: 1.006500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.392 seconds
+Refreshing native plugins compatible for Editor in 4.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.761 seconds
+Domain Reload Profiling: 8148ms
+	BeginReloadAssembly (466ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (229ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (1805ms)
+		LoadAssemblies (1081ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (857ms)
+			TypeCache.Refresh (818ms)
+				TypeCache.ScanAssembly (732ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (5763ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2368ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (27ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (953ms)
+			ProcessInitializeOnLoadAttributes (1217ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 10.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.7 MB). Loaded Objects now: 5436.
+Memory consumption went from 166.3 MB to 165.6 MB.
+Total: 10.956400 ms (FindLiveObjects: 1.117600 ms CreateObjectMapping: 0.548500 ms MarkObjects: 8.391100 ms  DeleteObjects: 0.897800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 370.951305 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44419141b5c876d466bd31236118a60') in 0.022466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 119.710086 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63509bf822f811e2d044d8e826f47567') in 0.000882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.871579 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da6258ca12622f3582be3a6dd2ef774') in 0.000978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.701886 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3af8d64f19c1f615adf3e8c0f4e50b') in 0.000812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 55.270728 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5078ed502f5590535a3c7741b140e506') in 0.000771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.877100 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb932e6108021670c917a70c6ee1303') in 0.000668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.612645 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90c0d0ba10f4143133b9223bd612fcb') in 0.000664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.148259 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcaf5a2de227fcfec3c0ce3fe21bf077') in 0.000638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 34.201454 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14f92f4b96614f58e3a2ebc99f2dea7') in 0.000893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 50.135647 seconds.
+  path: Assets/Script/Tank/TankData.cs
+  artifactKey: Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Tank/TankData.cs using Guid(901eef4b419a50e4fa26c527f3de65a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0edfb086c093430a5c81544c1616386') in 0.001530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\fainal\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  5.326 seconds
+Refreshing native plugins compatible for Editor in 19.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.025 seconds
+Domain Reload Profiling: 11351ms
+	BeginReloadAssembly (795ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (400ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (4349ms)
+		LoadAssemblies (2521ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2037ms)
+			TypeCache.Refresh (1944ms)
+				TypeCache.ScanAssembly (1718ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (44ms)
+	FinalizeReload (6029ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1811ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (38ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (585ms)
+			ProcessInitializeOnLoadAttributes (957ms)
+			ProcessInitializeOnLoadMethodAttributes (171ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
