@@ -15,7 +15,7 @@ C:/Users/81702/Desktop/Amakasu_Team/chest/TankKnight
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-5391
+6958
 Successfully changed project path to: C:/Users/81702/Desktop/Amakasu_Team/chest/TankKnight
 C:/Users/81702/Desktop/Amakasu_Team/chest/TankKnight
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/81702/Desktop/Amakasu_Team/chest/TankKnight
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26848] Host "[IP] 10.96.1.121 [Port] 0 [Flags] 2 [Guid] 784162702 [EditorId] 784162702 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RGVDAAR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20572] Host "[IP] 10.96.1.121 [Port] 0 [Flags] 2 [Guid] 354763860 [EditorId] 354763860 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RGVDAAR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [26848] Host "[IP] 10.96.1.121 [Port] 0 [Flags] 2 [Guid] 784162702 [EditorId] 784162702 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RGVDAAR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20572] Host "[IP] 10.96.1.121 [Port] 0 [Flags] 2 [Guid] 354763860 [EditorId] 354763860 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RGVDAAR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 20.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 16.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.2f1 (d74737c6db50)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -69,46 +69,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.025953 seconds.
-- Loaded All Assemblies, in  0.887 seconds
+Registered in 0.011674 seconds.
+- Loaded All Assemblies, in  0.439 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.411 seconds
-Domain Reload Profiling: 1292ms
-	BeginReloadAssembly (309ms)
+- Finished resetting the current domain, in  0.404 seconds
+Domain Reload Profiling: 839ms
+	BeginReloadAssembly (102ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (91ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (142ms)
-	LoadAllAssembliesAndSetupDomain (315ms)
-		LoadAssemblies (303ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (197ms)
+		LoadAssemblies (99ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (295ms)
-			TypeCache.Refresh (294ms)
-				TypeCache.ScanAssembly (269ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (412ms)
+	FinalizeReload (404ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (308ms)
+		SetupLoadedEditorAssemblies (316ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
+			InitializePlatformSupportModulesInManaged (16ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (201ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,52 +118,52 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\81702\Desktop\Amakasu_Team\chest\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\81702\Desktop\Amakasu_Team\chest\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.684 seconds
-Refreshing native plugins compatible for Editor in 8.48 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.512 seconds
+Refreshing native plugins compatible for Editor in 7.56 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.276 seconds
-Domain Reload Profiling: 2950ms
-	BeginReloadAssembly (248ms)
+- Finished resetting the current domain, in  1.249 seconds
+Domain Reload Profiling: 2750ms
+	BeginReloadAssembly (252ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (91ms)
-	LoadAllAssembliesAndSetupDomain (1252ms)
-		LoadAssemblies (788ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (1085ms)
+		LoadAssemblies (632ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (578ms)
-			TypeCache.Refresh (512ms)
-				TypeCache.ScanAssembly (491ms)
-			ScanForSourceGeneratedMonoScriptInfo (37ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (1277ms)
+		AnalyzeDomain (557ms)
+			TypeCache.Refresh (500ms)
+				TypeCache.ScanAssembly (480ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1250ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (932ms)
+		SetupLoadedEditorAssemblies (956ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (232ms)
-			ProcessInitializeOnLoadAttributes (520ms)
-			ProcessInitializeOnLoadMethodAttributes (137ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			BeforeProcessingInitializeOnLoad (216ms)
+			ProcessInitializeOnLoadAttributes (585ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (14ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 9.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4920 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (0.7 MB). Loaded Objects now: 5377.
-Memory consumption went from 183.2 MB to 182.5 MB.
-Total: 6.843200 ms (FindLiveObjects: 0.511800 ms CreateObjectMapping: 0.377200 ms MarkObjects: 5.227600 ms  DeleteObjects: 0.724700 ms)
+Unloading 4953 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (0.7 MB). Loaded Objects now: 5427.
+Memory consumption went from 192.1 MB to 191.4 MB.
+Total: 6.602400 ms (FindLiveObjects: 0.505900 ms CreateObjectMapping: 0.294100 ms MarkObjects: 5.248600 ms  DeleteObjects: 0.551600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,1051 +179,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 72771.601307 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Others/For_Collider.mat
-  artifactKey: Guid(9fb853b2517b9a04fbb01fc0fc52c47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Others/For_Collider.mat using Guid(9fb853b2517b9a04fbb01fc0fc52c47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f63c72057b193dbcd4de98ba7316b6') in 0.227212 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Others/Particle_Spark.mat
-  artifactKey: Guid(f529bbdd552f1284f8bb0ea9b48d22bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Others/Particle_Spark.mat using Guid(f529bbdd552f1284f8bb0ea9b48d22bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6e2edbbea1e7a896a8d41a409407fb') in 0.009655 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.357282 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/SD_Firefly_2.0.prefab
-  artifactKey: Guid(5c0378b47d76c394dbb09985cf5dc360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/SD_Firefly_2.0.prefab using Guid(5c0378b47d76c394dbb09985cf5dc360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded04b3c5f805630c9f2fb731552d312') in 0.388045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 398
-========================================================================
-Received Import Request.
-  Time since last request: 27.481095 seconds.
-  path: Assets/FourEvilDragonsPBR/Animators
-  artifactKey: Guid(5ad071ae1343c5b4ca58aad5c0ea1099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animators using Guid(5ad071ae1343c5b4ca58aad5c0ea1099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353d44c071771f4782afa901e8f32e58') in 0.000948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.537573 seconds.
-  path: Assets/FourEvilDragonsPBR/Materials
-  artifactKey: Guid(05c1ffad7c949de45bc9b6664fb58d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Materials using Guid(05c1ffad7c949de45bc9b6664fb58d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3781b4f5a528fdd112cab7afcd2e46de') in 0.000808 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.603538 seconds.
-  path: Assets/FourEvilDragonsPBR/Mesh
-  artifactKey: Guid(0553ea6024bba774baf76bde78e887fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Mesh using Guid(0553ea6024bba774baf76bde78e887fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98f2edc1de36a04dd89626abdef7609') in 0.000954 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.432980 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab
-  artifactKey: Guid(4375e93352605df4cbdaa1c202fbe8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab using Guid(4375e93352605df4cbdaa1c202fbe8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b691ea34b761a28a45d454e7f2345f') in 0.000973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.776376 seconds.
-  path: Assets/FourEvilDragonsPBR/Scene
-  artifactKey: Guid(ca5661a67750c244cbc0e8a0cbe2b134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Scene using Guid(ca5661a67750c244cbc0e8a0cbe2b134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f4845a2e7a195f6af14c8175176740') in 0.000761 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.574303 seconds.
-  path: Assets/FourEvilDragonsPBR/Texture
-  artifactKey: Guid(029cb04ef2736154bb988bdf55c949e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Texture using Guid(029cb04ef2736154bb988bdf55c949e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4391574edb8e9ea425e719e0fee101') in 0.000831 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.908544 seconds.
-  path: Assets/FourEvilDragonsPBR/Scene/MainScene.unity
-  artifactKey: Guid(9977fdcc82a19de47b35835c45b8deb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Scene/MainScene.unity using Guid(9977fdcc82a19de47b35835c45b8deb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6153e18419162744517e72786b3f1e2a') in 0.000852 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.010119 seconds.
-  path: Assets/FourEvilDragonsPBR/Scene/NightmareScene.unity
-  artifactKey: Guid(d8ee4eabfc0eb374abb799a03c54b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Scene/NightmareScene.unity using Guid(d8ee4eabfc0eb374abb799a03c54b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b69f1493a323d5cda46acc51d54da6a') in 0.000921 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.271981 seconds.
-  path: Assets/FourEvilDragonsPBR/Scene/SoulEaterScene.unity
-  artifactKey: Guid(5b7a5d45cc6bc794e84740c25259b3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Scene/SoulEaterScene.unity using Guid(5b7a5d45cc6bc794e84740c25259b3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2610409be549f0e482c5ec0dea17c8dc') in 0.000733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.631989 seconds.
-  path: Assets/FourEvilDragonsPBR/Scene/TerrorBringerScene.unity
-  artifactKey: Guid(abd974e8f4002d14994cb4d1bfce6443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Scene/TerrorBringerScene.unity using Guid(abd974e8f4002d14994cb4d1bfce6443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa510f0b8f8be96aec5afc38b87c5888') in 0.000902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.684781 seconds.
-  path: Assets/FourEvilDragonsPBR/Scene/UsurperScene.unity
-  artifactKey: Guid(cba58fffeb4be854491c94a10cb5f486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Scene/UsurperScene.unity using Guid(cba58fffeb4be854491c94a10cb5f486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948f4e4d5e42ca6ad384cdb9721b8d5c') in 0.001494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 521.917833 seconds.
-  path: Assets/FourEvilDragonsPBR
-  artifactKey: Guid(421597ef7ce99ff4b8c06d5c18971a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR using Guid(421597ef7ce99ff4b8c06d5c18971a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec4b133373615752c305f51a5bbcff2') in 0.001231 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 24.371810 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)
-  artifactKey: Guid(02c796eab9dba7d4282a27b81609c2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free) using Guid(02c796eab9dba7d4282a27b81609c2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369c5bb634114a42db5baafdf7b17979') in 0.001793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.481742 seconds.
-  path: Assets/Script
-  artifactKey: Guid(200471ec0882d7445afaa77b21bec3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script using Guid(200471ec0882d7445afaa77b21bec3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f048f72c3a4a91dc79f29d9f896260b1') in 0.001296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.490488 seconds.
-  path: Assets/Settings
-  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1590fa22b40341c212b8176897fa41ce') in 0.001040 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 26.511777 seconds.
-  path: Assets/FourEvilDragonsPBR/Mesh/DragonBoarMesh.fbx
-  artifactKey: Guid(5c658df0d8d544b4c860c0ad70993a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Mesh/DragonBoarMesh.fbx using Guid(5c658df0d8d544b4c860c0ad70993a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83839e3fed8b27d7358ebb2575338829') in 0.145359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/FourEvilDragonsPBR/Mesh/DragonTheNightmareMesh.fbx
-  artifactKey: Guid(2f4e6492f506bbb4a8aeba850e3bb52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Mesh/DragonTheNightmareMesh.fbx using Guid(2f4e6492f506bbb4a8aeba850e3bb52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8457616339644952d5efbd600c448894') in 0.021846 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 154
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/FourEvilDragonsPBR/Mesh/Stage.fbx
-  artifactKey: Guid(2897399b8106c274f9e41904f19945b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Mesh/Stage.fbx using Guid(2897399b8106c274f9e41904f19945b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae752294048b712e67425416225e9f5') in 0.012383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/FourEvilDragonsPBR/Mesh/DragonTerrorBringerMesh.fbx
-  artifactKey: Guid(3fa06637f7751b44b8e63a9964b181a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Mesh/DragonTerrorBringerMesh.fbx using Guid(3fa06637f7751b44b8e63a9964b181a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb700c2a02cb786e01d8bbb6dd98298') in 0.019568 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 176
-========================================================================
-Received Import Request.
-  Time since last request: 4.970405 seconds.
-  path: Assets/FourEvilDragonsPBR/Materials/Skybox_Mat.mat
-  artifactKey: Guid(03fa2b9871fd84540a5f7f3697104c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Materials/Skybox_Mat.mat using Guid(03fa2b9871fd84540a5f7f3697104c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690bdce04a6b2aa086cbfe55c836efb1') in 0.083073 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.628691 seconds.
-  path: Assets/FourEvilDragonsPBR/Scene/DragonBoarPBRSettings.lighting
-  artifactKey: Guid(231b18023b0db61499c71a5ee63b7395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Scene/DragonBoarPBRSettings.lighting using Guid(231b18023b0db61499c71a5ee63b7395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11e8d4df7e1cddc3d027c3873372d30') in 0.001493 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.632184 seconds.
-  path: Assets/FourEvilDragonsPBR/Scene/DragonBoarPBR.unity
-  artifactKey: Guid(20b3bee2a0646b5448c6265c22015b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Scene/DragonBoarPBR.unity using Guid(20b3bee2a0646b5448c6265c22015b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f33367d318e7852a8b2ce4dbf3c4465') in 0.000909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 28.955286 seconds.
-  path: Assets/Script/Tank
-  artifactKey: Guid(09b9a44d3990ac642a4aca15ccf3f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Tank using Guid(09b9a44d3990ac642a4aca15ccf3f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a87995ac54236b6ff0b25dff8086c3') in 0.000870 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.198864 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs
-  artifactKey: Guid(b0daf721091c2ea4eb2f893e6f2e3d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs using Guid(b0daf721091c2ea4eb2f893e6f2e3d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a41988341a6cc55cd9704b1b48838d') in 0.002992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.818990 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props
-  artifactKey: Guid(a83222641031c2f40894d437657491a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props using Guid(a83222641031c2f40894d437657491a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5aeb5f84ee34df8ef9af0fb3c54dead') in 0.000886 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.252095 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Hedge_A.prefab
-  artifactKey: Guid(433510086a5077949858fe701d425a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Hedge_A.prefab using Guid(433510086a5077949858fe701d425a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7abae40613c35d265665bf6f537c0aa') in 0.046645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/House_A.prefab
-  artifactKey: Guid(a02ec038ad8e92240888af738003b3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/House_A.prefab using Guid(a02ec038ad8e92240888af738003b3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0efe4dc72521eee31ae162281380e57') in 0.021620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Hedge_Base_B.prefab
-  artifactKey: Guid(7e73d4aea3aed3e4b8f57f1df5ba3ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Hedge_Base_B.prefab using Guid(7e73d4aea3aed3e4b8f57f1df5ba3ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6450d10324600c7dba4828c862ab1f') in 0.016973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Tree_A.prefab
-  artifactKey: Guid(745496dd1e430494b82a6c1f7438d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Tree_A.prefab using Guid(745496dd1e430494b82a6c1f7438d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13b022dec977b3b8cb0b929bca6c099') in 0.017371 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 2.122637 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Grass_Tile.prefab
-  artifactKey: Guid(3d8ff0b073bc8664e93005a91c27d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Grass_Tile.prefab using Guid(3d8ff0b073bc8664e93005a91c27d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29295fd0bbf6849025f000be52f5641f') in 0.018285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Water_Tile.prefab
-  artifactKey: Guid(65091ea4068294a438d8ae00f68e1e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Water_Tile.prefab using Guid(65091ea4068294a438d8ae00f68e1e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3254631f87886ed480d6c7b10d39932') in 0.017326 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Sand_Tile.prefab
-  artifactKey: Guid(7849a9be56e4c9b41943b77307ed52f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Sand_Tile.prefab using Guid(7849a9be56e4c9b41943b77307ed52f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e743a3f842f9cdc1fda0d78962f77c') in 0.011209 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 1.088012 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Bullet.prefab
-  artifactKey: Guid(b0524b2af2a10754aa6797e704fa9541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Bullet.prefab using Guid(b0524b2af2a10754aa6797e704fa9541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a29931d413a9981db9e525c3cee89a5') in 0.029370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Hedge_Broken.prefab
-  artifactKey: Guid(76642ad27458c924b9bfd516ae36ea9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Hedge_Broken.prefab using Guid(76642ad27458c924b9bfd516ae36ea9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbc5cf56989a99526f974a8145bf00b') in 0.099138 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Destroyed_Effect.prefab
-  artifactKey: Guid(85ca98222c1ec734bb11ee2954a38b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Destroyed_Effect.prefab using Guid(85ca98222c1ec734bb11ee2954a38b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6d5ef7010d12809f307ecdcb4820a2') in 0.016395 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 1.809815 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Tank_Components/Armor_Collider.prefab
-  artifactKey: Guid(ff89a4aa84fad3f48ae0de11153af052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Tank_Components/Armor_Collider.prefab using Guid(ff89a4aa84fad3f48ae0de11153af052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f133a8207a3ca31baa601349ef619040') in 0.013553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.149527 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Camera_Manager.prefab
-  artifactKey: Guid(e002b9de4290e0a4ea8fc2d05296e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Camera_Manager.prefab using Guid(e002b9de4290e0a4ea8fc2d05296e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54c734e9376be88b887c9da288cbe63') in 0.004226 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Touch_Controls.prefab
-  artifactKey: Guid(157ad9db6ee8b0247a33cc70bbd2459b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Touch_Controls.prefab using Guid(157ad9db6ee8b0247a33cc70bbd2459b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38af4b81017c35a4c4acf5c6791ad1f') in 0.012501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 115
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Text_Damage.prefab
-  artifactKey: Guid(14e15a8878973664593b9aa0db462273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Text_Damage.prefab using Guid(14e15a8878973664593b9aa0db462273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7176ab47a3bdbe5035f7518aa205dbb8') in 0.003525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 2.437410 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Others/SE_Engine.ogg
-  artifactKey: Guid(152276e7f391445468f04b1f6cfd5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Others/SE_Engine.ogg using Guid(152276e7f391445468f04b1f6cfd5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057cb77e699f6aa25b1f0417f3e5763c') in 0.031380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.090794 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Others/SE_Explosion.ogg
-  artifactKey: Guid(c34bd8188558cfb498da01688fd81163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Others/SE_Explosion.ogg using Guid(c34bd8188558cfb498da01688fd81163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1908ed9feedfac67b7efec82249a2460') in 0.009735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.318808 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Others/SE_Fire.ogg
-  artifactKey: Guid(98ee43f119dde354a9d69cbe815e5a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Others/SE_Fire.ogg using Guid(98ee43f119dde354a9d69cbe815e5a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f697af4b08b42a89c3dcd6e52ae428c2') in 0.019812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.259621 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Others/SE_Hit.ogg
-  artifactKey: Guid(95f62d26575ca6544ac963aeb980f59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Others/SE_Hit.ogg using Guid(95f62d26575ca6544ac963aeb980f59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0810cd440b4b04387f1bda87af801e7b') in 0.016950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.005509 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Others/Smoke_01.png
-  artifactKey: Guid(ebc6568856c7bfc46a6c3ee082bbd2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Others/Smoke_01.png using Guid(ebc6568856c7bfc46a6c3ee082bbd2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7e15db434bb01e6949913cd049ebd2') in 0.023102 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.249267 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Others/Spark_01.png
-  artifactKey: Guid(fab9fc7b1322442449eb5f596c668a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Others/Spark_01.png using Guid(fab9fc7b1322442449eb5f596c668a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafa6b3ac155c7d59cb163e6b7e0d1d2') in 0.016699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 8.409528 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Scenes/Test_Field.unity
-  artifactKey: Guid(0c6c6c4af707b55448fd190736aba425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Scenes/Test_Field.unity using Guid(0c6c6c4af707b55448fd190736aba425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50006f0e39b2da8832b1a3c620eba66') in 0.001695 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\81702\Desktop\Amakasu_Team\chest\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\81702\Desktop\Amakasu_Team\chest\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.721 seconds
-Refreshing native plugins compatible for Editor in 4.57 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.833 seconds
-Domain Reload Profiling: 2549ms
-	BeginReloadAssembly (136ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (504ms)
-		LoadAssemblies (334ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (222ms)
-			TypeCache.Refresh (214ms)
-				TypeCache.ScanAssembly (205ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1833ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (642ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (149ms)
-			ProcessInitializeOnLoadAttributes (348ms)
-			ProcessInitializeOnLoadMethodAttributes (114ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 9.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4837 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (0.8 MB). Loaded Objects now: 5443.
-Memory consumption went from 171.7 MB to 170.9 MB.
-Total: 6.960200 ms (FindLiveObjects: 0.525600 ms CreateObjectMapping: 0.413100 ms MarkObjects: 5.197600 ms  DeleteObjects: 0.821300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 229.801835 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Scenes/Town.unity
-  artifactKey: Guid(be7bcb770a1f63c49a93dd3d90f90c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Scenes/Town.unity using Guid(be7bcb770a1f63c49a93dd3d90f90c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5fa25498ae2e47181929a63f65efd7') in 0.005887 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\81702\Desktop\Amakasu_Team\chest\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\81702\Desktop\Amakasu_Team\chest\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.661 seconds
-Refreshing native plugins compatible for Editor in 4.31 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.022 seconds
-Domain Reload Profiling: 1679ms
-	BeginReloadAssembly (130ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (459ms)
-		LoadAssemblies (268ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (244ms)
-			TypeCache.Refresh (235ms)
-				TypeCache.ScanAssembly (226ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1022ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (425ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (223ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4837 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (0.7 MB). Loaded Objects now: 5446.
-Memory consumption went from 171.6 MB to 170.9 MB.
-Total: 3.759300 ms (FindLiveObjects: 0.299700 ms CreateObjectMapping: 0.173500 ms MarkObjects: 2.898100 ms  DeleteObjects: 0.386900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 64.557712 seconds.
-  path: Assets/FourEvilDragonsPBR/Scene/DragonSoulEaterPBRSettings.lighting
-  artifactKey: Guid(5e11ef6c5d60d4544993ee3304c934f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Scene/DragonSoulEaterPBRSettings.lighting using Guid(5e11ef6c5d60d4544993ee3304c934f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8013a61928ca70bf88819f44db5ca3b') in 0.022202 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\81702\Desktop\Amakasu_Team\chest\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\81702\Desktop\Amakasu_Team\chest\TankKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.698 seconds
-Refreshing native plugins compatible for Editor in 3.97 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.820 seconds
-Domain Reload Profiling: 2511ms
-	BeginReloadAssembly (129ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (493ms)
-		LoadAssemblies (288ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (257ms)
-			TypeCache.Refresh (240ms)
-				TypeCache.ScanAssembly (226ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1820ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (457ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (119ms)
-			ProcessInitializeOnLoadAttributes (248ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4870 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (1.4 MB). Loaded Objects now: 5475.
-Memory consumption went from 174.9 MB to 173.5 MB.
-Total: 4.051900 ms (FindLiveObjects: 0.289300 ms CreateObjectMapping: 0.176600 ms MarkObjects: 3.029100 ms  DeleteObjects: 0.555700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 243.963856 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonBoar/attack.fbx
-  artifactKey: Guid(3fd80404506c6734282c368b3d3b36f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonBoar/attack.fbx using Guid(3fd80404506c6734282c368b3d3b36f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b5fa0c0571cdd0f1a061b615b537d1') in 0.101047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 93
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonBoar/run.fbx
-  artifactKey: Guid(5f9b47d1228458148ac9b6e86d151862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonBoar/run.fbx using Guid(5f9b47d1228458148ac9b6e86d151862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876b2ebeea4aef28b68fb31e42ddc8f7') in 0.023790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 91
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonBoar/Scream.fbx
-  artifactKey: Guid(131e870b83920764e869069cf8c977e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonBoar/Scream.fbx using Guid(131e870b83920764e869069cf8c977e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f646a98127e6abfdb00d0325984b47bf') in 0.021955 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 93
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonBoar/idle.fbx
-  artifactKey: Guid(2bcf21f129797c541a2ce3587bf59eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonBoar/idle.fbx using Guid(2bcf21f129797c541a2ce3587bf59eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61578b45b8cfbc8d8528eb1bf38afeea') in 0.020777 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 93
-========================================================================
-Received Import Request.
-  Time since last request: 0.721784 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Basic Attack.fbx
-  artifactKey: Guid(f882585276163954fbc547e18dea9d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/Basic Attack.fbx using Guid(f882585276163954fbc547e18dea9d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b9e609cad69da2ee4c23bbd9514e5d') in 0.036434 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 155
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/defend.fbx
-  artifactKey: Guid(b97d7fae708615b4bab97d3197b11bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/defend.fbx using Guid(b97d7fae708615b4bab97d3197b11bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cbd615bd8ad319f466320f8380450b') in 0.033463 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 155
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/idle02.fbx
-  artifactKey: Guid(9d21fa939f154f147ac659d23465c4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/idle02.fbx using Guid(9d21fa939f154f147ac659d23465c4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3796bc61080dc04affd6ec1dd2e83c1e') in 0.028196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 155
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walkRight.fbx
-  artifactKey: Guid(0d450e707f0b2d646b814fe61b117d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walkRight.fbx using Guid(0d450e707f0b2d646b814fe61b117d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713b53a6044151ec95a505cbf2224591') in 0.028165 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 155
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/die.fbx
-  artifactKey: Guid(4b1dcfc331de54549a94b650385f751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/die.fbx using Guid(4b1dcfc331de54549a94b650385f751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5818af65fe354b81919a9c9b827dff8') in 0.030713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 155
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/idle01.fbx
-  artifactKey: Guid(e6a84557d6aca2f4daa1b608739267d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/idle01.fbx using Guid(e6a84557d6aca2f4daa1b608739267d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9f26ce2efdef9a425c591b7acb4be4') in 0.029278 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 155
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walkBack.fbx
-  artifactKey: Guid(febc3ddda9a2b7e48a803fdfeeaf757d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/walkBack.fbx using Guid(febc3ddda9a2b7e48a803fdfeeaf757d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93fc547797981daedf5d776e1aa4c6c') in 0.027620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 155
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonNightMare/scream.fbx
-  artifactKey: Guid(111c5f2baba40874c84636fdf0cf746e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonNightMare/scream.fbx using Guid(111c5f2baba40874c84636fdf0cf746e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882ba154ff7f79f110b778a883e28a03') in 0.028910 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 155
-========================================================================
-Received Import Request.
-  Time since last request: 0.641175 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Basic Attack.fbx
-  artifactKey: Guid(5d9efb65c776b714fb5123711f07de0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Basic Attack.fbx using Guid(5d9efb65c776b714fb5123711f07de0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd596f700c0ad8830e84be606037b045c') in 0.031550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 133
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Idle.fbx
-  artifactKey: Guid(53822ae0b4a40a24b97e0cf0388e4248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Idle.fbx using Guid(53822ae0b4a40a24b97e0cf0388e4248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d9b1f9bd3ba4ccb2f80c65eee8dc10') in 0.034866 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 133
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fly Float.fbx
-  artifactKey: Guid(e02bdaca3b0c3284ab993c4eba862036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fly Float.fbx using Guid(e02bdaca3b0c3284ab993c4eba862036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3555de6b3bf3e624b4d83e23d3f60442') in 0.027792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 133
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Get Hit.fbx
-  artifactKey: Guid(34cbf41484d0da24e9a24545c9d5a332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Get Hit.fbx using Guid(34cbf41484d0da24e9a24545c9d5a332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a829a8f8cd46bb5517997b31100d2ef1') in 0.028302 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 133
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Scream.fbx
-  artifactKey: Guid(8b0b248c4105fd841aad612f61769ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Scream.fbx using Guid(8b0b248c4105fd841aad612f61769ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56da4bce559a1bb412ffd941a59e98dc') in 0.029695 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 133
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fireball Shoot.fbx
-  artifactKey: Guid(6e4f9ef5485ccb04299f52ceae24d120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fireball Shoot.fbx using Guid(6e4f9ef5485ccb04299f52ceae24d120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a8bb5848d332543a27d061d0e02c5a') in 0.031296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 133
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Die.fbx
-  artifactKey: Guid(6f83b9d81f8c7854baeca6ff691bb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Die.fbx using Guid(6f83b9d81f8c7854baeca6ff691bb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c996c37c31b34a811c212fcfa89e8ccd') in 0.033987 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 133
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fly Fireball Shoot.fbx
-  artifactKey: Guid(37760f0079ba2124cb0198d37570b625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Fly Fireball Shoot.fbx using Guid(37760f0079ba2124cb0198d37570b625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1c3c716259f63a14556b4b64a53c63') in 0.031874 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 133
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Take Off.fbx
-  artifactKey: Guid(24717e004c7ffb84a901d2dfdcc426bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonSoulEater/Take Off.fbx using Guid(24717e004c7ffb84a901d2dfdcc426bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75dda8ed79350defded88c32c71854d') in 0.031665 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 133
-========================================================================
-Received Import Request.
-  Time since last request: 6.468843 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Flame Attack.fbx
-  artifactKey: Guid(b39c8cd2e979bd0458d96f045c9e4464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Flame Attack.fbx using Guid(b39c8cd2e979bd0458d96f045c9e4464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cb4438839492a2ce7bf965ded5907c') in 0.026051 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 177
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Landing.fbx
-  artifactKey: Guid(f728a9645c91629469fdc1e9a452ddea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Landing.fbx using Guid(f728a9645c91629469fdc1e9a452ddea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cebf9dcd2c1ea406df626b0af42d26') in 0.026943 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 177
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/TakeOff.fbx
-  artifactKey: Guid(2881cf760574bd24280f47207b567e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/TakeOff.fbx using Guid(2881cf760574bd24280f47207b567e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e091ba08d0338ee21997c49debf20eec') in 0.021739 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 177
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyForward.fbx
-  artifactKey: Guid(d1facc13bc40c14408f2106cf788a7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyForward.fbx using Guid(d1facc13bc40c14408f2106cf788a7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a94caa899de33242ffbf1ea55e089e') in 0.021751 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 177
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyGlide.fbx
-  artifactKey: Guid(29b94464c227dad4997918129dad480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyGlide.fbx using Guid(29b94464c227dad4997918129dad480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58532a99e623b5f053c57b506a843f06') in 0.021022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 177
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/walk.fbx
-  artifactKey: Guid(ac9b8cd5f91eeef44a25fce0f31885c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/walk.fbx using Guid(ac9b8cd5f91eeef44a25fce0f31885c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a571447bc7c35c0f8a54dd32d5baea8f') in 0.021177 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 177
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyIdle.fbx
-  artifactKey: Guid(fe8f656bdccb4074683e623a09c9728e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonTerrorBringer/FlyIdle.fbx using Guid(fe8f656bdccb4074683e623a09c9728e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6f162237f0f53e842bfd6fc8046626') in 0.024495 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 177
-========================================================================
-Received Import Request.
-  Time since last request: 4.588274 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Die.fbx
-  artifactKey: Guid(347d2e064d3a3f946b17655dcc998386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Die.fbx using Guid(347d2e064d3a3f946b17655dcc998386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4341ea47af728c7b946f19143ff4a91') in 0.029003 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 249
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Land.fbx
-  artifactKey: Guid(16d67d90d0f2e3f4995c3c82004acb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonUsurper/Land.fbx using Guid(16d67d90d0f2e3f4995c3c82004acb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a61649aa40f81c9f73aa6efb67b690') in 0.023347 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 249
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonUsurper/idle02.fbx
-  artifactKey: Guid(df5d29c6a8c8f1c4caef2b4c1d0b073a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonUsurper/idle02.fbx using Guid(df5d29c6a8c8f1c4caef2b4c1d0b073a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84e8c6932c7de3c8041e486f8fd9586') in 0.022871 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 249
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonUsurper/idle01.fbx
-  artifactKey: Guid(f862cf09513abb14cbba0e94da9a410f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonUsurper/idle01.fbx using Guid(f862cf09513abb14cbba0e94da9a410f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f448aa3ed9680f9326b8c553d3dd1653') in 0.027907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 249
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonUsurper/takeOff.fbx
-  artifactKey: Guid(8d407c572ffcdd64a8093245d978392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonUsurper/takeOff.fbx using Guid(8d407c572ffcdd64a8093245d978392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f3f452bc1c7034163f5d1d26cd7d5b') in 0.023210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 249
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonUsurper/FlyGlide.fbx
-  artifactKey: Guid(14d524dd6d57c094da8d73fee5077c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonUsurper/FlyGlide.fbx using Guid(14d524dd6d57c094da8d73fee5077c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf8bfe9c2296a8e09005dffc866d121') in 0.023617 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 249
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FourEvilDragonsPBR/Animations/DragonUsurper/getHit.fbx
-  artifactKey: Guid(1f674d87cae509644a306408e4fecfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Animations/DragonUsurper/getHit.fbx using Guid(1f674d87cae509644a306408e4fecfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817f43d95b5fd8ca5aa4a7b7ccd34568') in 0.022331 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 249
-========================================================================
-Received Import Request.
-  Time since last request: 11.930850 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonBoarPBR
-  artifactKey: Guid(86ea95b5bfce4b1439af4bd3f1f0c89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonBoarPBR using Guid(86ea95b5bfce4b1439af4bd3f1f0c89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5cbea9d9ec95138fc5c7e368bd6c87') in 0.000945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.273102 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonBoarPBR/BlueBoarPBR.prefab
-  artifactKey: Guid(907325ec940ecbf409d1505976f5fcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonBoarPBR/BlueBoarPBR.prefab using Guid(907325ec940ecbf409d1505976f5fcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01ccb0869d7d2a0d6eaa1c82ddbdb28') in 0.636456 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 149
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonBoarPBR/GreenBoarPBR.prefab
-  artifactKey: Guid(7add1d5b90ab7234d92b5feb2d77c953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonBoarPBR/GreenBoarPBR.prefab using Guid(7add1d5b90ab7234d92b5feb2d77c953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8322a9ff4fbf69f6022cac9f6c24f6') in 0.169722 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 148
-========================================================================
-Received Import Request.
-  Time since last request: 1.558235 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Albino.prefab
-  artifactKey: Guid(8252519d2c6fd014bb5f75765a8c4fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Albino.prefab using Guid(8252519d2c6fd014bb5f75765a8c4fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19cb70c76b4870e5cb1a826ee8c878d') in 0.076252 seconds
+  Time since last request: 74555.347883 seconds.
+  path: Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Blue.prefab
+  artifactKey: Guid(edd34a89cfe571f4ca766dcca2459bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Blue.prefab using Guid(edd34a89cfe571f4ca766dcca2459bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cc55b1d924f6cef9be41549d2d9e7b') in 0.336733 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 209
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Red.prefab
-  artifactKey: Guid(a3e7850e56f7e2d4a8cb9e150f10c835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonNightmare/Red.prefab using Guid(a3e7850e56f7e2d4a8cb9e150f10c835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1417f133457811cadb6483c55b0b50f3') in 0.064792 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 209
-========================================================================
-Received Import Request.
-  Time since last request: 1.288594 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Blue.prefab
-  artifactKey: Guid(c644a2181ac22e740968a7ece97e8f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Blue.prefab using Guid(c644a2181ac22e740968a7ece97e8f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ab7f139c9c593e3848e4abe1db9c60') in 0.004612 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 130
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Red.prefab
-  artifactKey: Guid(70f277dcf2cdfdd4db7ee0ca76e07767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonSoulEater/Red.prefab using Guid(70f277dcf2cdfdd4db7ee0ca76e07767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7786186edf165353216daab6ab9c375') in 0.003002 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 130
-========================================================================
-Received Import Request.
-  Time since last request: 1.046975 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonSoulEaterHP/DragonSoulEaterBlueHP.prefab
-  artifactKey: Guid(46f5c004c20094c49889487b4f6d72c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonSoulEaterHP/DragonSoulEaterBlueHP.prefab using Guid(46f5c004c20094c49889487b4f6d72c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54414500b525a9cfceee40bc1bbc9a18') in 0.334635 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 187
-========================================================================
-Received Import Request.
-  Time since last request: 0.215901 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonSoulEaterPBR/DragonSoulEaterBluePBR.prefab
-  artifactKey: Guid(31a77d5e57bdce243a1c38bc0ba2808f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonSoulEaterPBR/DragonSoulEaterBluePBR.prefab using Guid(31a77d5e57bdce243a1c38bc0ba2808f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839769664dd3b5f2a5dc4f4b080976c7') in 0.470149 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 191
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonSoulEaterPBR/DragonSoulEaterPurplePBR.prefab
-  artifactKey: Guid(0bdbbc31102770146858004072a8752a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonSoulEaterPBR/DragonSoulEaterPurplePBR.prefab using Guid(0bdbbc31102770146858004072a8752a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cf4fc4b4692d270cdaf427389130a5') in 0.084700 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 191
-========================================================================
-Received Import Request.
-  Time since last request: 0.108045 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Albino.prefab
-  artifactKey: Guid(8e302007cba46d94b970c6a0955b9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Albino.prefab using Guid(8e302007cba46d94b970c6a0955b9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d837b7d872487ec9ce52824215387c2') in 0.119518 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 238
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Grey.prefab
-  artifactKey: Guid(20a769104331d8b48ac7d1ea0d49cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Grey.prefab using Guid(20a769104331d8b48ac7d1ea0d49cdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f305698f87c7d5cbb9d0727320ad0dd8') in 0.101915 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 238
-========================================================================
-Received Import Request.
-  Time since last request: 0.655422 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Albino.prefab
-  artifactKey: Guid(aeb4794909bc89d43b72ad784903e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Albino.prefab using Guid(aeb4794909bc89d43b72ad784903e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652ece91e04c370ce7f9c89aee670ecb') in 0.087728 seconds
-Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 310
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Blue.prefab
-  artifactKey: Guid(445a5c29e7f715947b713a753f242af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Blue.prefab using Guid(445a5c29e7f715947b713a753f242af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fb753bd9f5a11e1c29cf138100af59') in 0.094133 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 310
-========================================================================
-Received Import Request.
-  Time since last request: 9.487846 seconds.
-  path: Assets/FourEvilDragonsPBR/Scene/DragonBoarPBR.unity
-  artifactKey: Guid(fde1050a8210aa642ab109ab1ae320b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Scene/DragonBoarPBR.unity using Guid(fde1050a8210aa642ab109ab1ae320b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ecb24d83cff47d641b2ef17bcbeeee') in 0.001054 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.282014 seconds.
-  path: Assets/FourEvilDragonsPBR/Scene/DragonSoulEaterHP.unity
-  artifactKey: Guid(578681a88165db842be923d1ae82b6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Scene/DragonSoulEaterHP.unity using Guid(578681a88165db842be923d1ae82b6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee98db770ac7ab743325a7e03aa6440') in 0.000639 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.037278 seconds.
-  path: Assets/FourEvilDragonsPBR/Scene/DragonSoulEaterPBR.unity
-  artifactKey: Guid(00a9cf0784dd64e48b9d6da780d0e039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Scene/DragonSoulEaterPBR.unity using Guid(00a9cf0784dd64e48b9d6da780d0e039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdc8235b8571897010a251b86ab40a4') in 0.000549 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
