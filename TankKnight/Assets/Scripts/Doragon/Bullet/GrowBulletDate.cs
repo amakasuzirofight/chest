@@ -74,32 +74,38 @@ public class GrowBulletDate : MonoBehaviour
             {
                 GrowState(ref BulletState.Instance.bulletInterval,growInterval, 0, 0,1);
                 BulletState.Instance.currentLv[1]++;
+                Debug.Log(BulletState.Instance.bulletInterval);
 
             }
             else if (BulletState.Instance.currentLv[1] == 2)
             {
                 GrowState(ref BulletState.Instance.bulletInterval, growInterval, 1, 1, 1);
                 BulletState.Instance.currentLv[1]++;
+                Debug.Log(BulletState.Instance.bulletInterval);
             }
             else if (BulletState.Instance.currentLv[1] == 3)
             {
                 GrowState(ref BulletState.Instance.bulletInterval, growInterval, 2, 2, 1);
                 BulletState.Instance.currentLv[1]++;
+                Debug.Log(BulletState.Instance.bulletInterval);
             }
             else if (BulletState.Instance.currentLv[1] == 4)
             {
                 GrowState(ref BulletState.Instance.bulletInterval, growInterval, 3, 3, 1);
                 BulletState.Instance.currentLv[1]++;
+                Debug.Log(BulletState.Instance.bulletInterval);
             }
             else if (BulletState.Instance.currentLv[1] == 5)
             {
                 GrowState(ref BulletState.Instance.bulletInterval, growInterval, 4, 4, 1);
                 BulletState.Instance.currentLv[1]++;
+                Debug.Log(BulletState.Instance.bulletInterval);
             }
             else if (BulletState.Instance.currentLv[1] == 6)
             {
                 GrowState(ref BulletState.Instance.bulletInterval, growInterval, 5, 5, 1);
                 BulletState.Instance.currentLv[1]++;
+                Debug.Log(BulletState.Instance.bulletInterval);
             }
         }
     }

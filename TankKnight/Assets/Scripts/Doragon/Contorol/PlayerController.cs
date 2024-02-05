@@ -43,7 +43,6 @@ public class PlayerController : MonoBehaviour
         Move();
         InputContorol("isWalk");
         Attack("isAttack");
-        Debug.Log(canEvo);
         
         if (canEvo)
         {
