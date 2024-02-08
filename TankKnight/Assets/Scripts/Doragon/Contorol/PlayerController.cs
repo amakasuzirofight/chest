@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     protected Rigidbody rb;
     [SerializeField]protected Camera mainCamera; // プレイヤーに追従するカメラ
     protected  CharacterController con;
+    
 
     //移動
     Vector3 moveDirection = Vector3.zero;
@@ -19,7 +20,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float cameraDistance = 5.0f; // カメラとプレイヤーの距離
     [SerializeField] float fieldOfView = 20; // カメラのフィールドオブビュー
 
-    //玉発射
+    //弾発射
     [SerializeField] Transform bulletTrans;
     [SerializeField] GameObject bulletObj;
     //攻撃インターバル関係
@@ -29,12 +30,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject[] evoDoragons;
     protected bool canEvo=true;
     protected bool doOnes = false;
+    
+   
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         con = GetComponent<CharacterController>();
         startPos = transform.position;
         animator = GetComponent<Animator>();
+        
     }
 
     protected virtual void  Update()
@@ -51,9 +56,8 @@ public class PlayerController : MonoBehaviour
 
     }
 
-
     #region 進化
-  protected  void Evo(int exp,int evoNum,int destoroyNum)
+    protected void Evo(int exp,int evoNum,int destoroyNum)
     {
         if (DoragonDate.Instance.currentExp >= DoragonDate.Instance.nextLvExp[exp])
         {
@@ -70,24 +74,33 @@ public class PlayerController : MonoBehaviour
     #region 攻撃
     protected void Attack(string anim)
     {
-        shotIntervalCount += Time.deltaTime;
+        
+            shotIntervalCount += Time.deltaTime;
 
-        if (!isShot)
-        { 
-                if (Input.GetKeyDown("joystick button 5"))
+            if (!isShot)
+            {
+                if (Input.GetKeyDown("joystick button 5") || Input.GetKeyDown(KeyCode.Space))
                 {
+
                     ShootBullet();
+                    for (int i = 0; i < BulletState.Instance.bulletNum; i++)
+                    {
+                        Invoke("ShootBullet", 0.5f);
+                    }
+
                     animator.SetTrigger(anim);
                     isShot = true;
                     shotIntervalCount = 0;
                 }
-                
-        }
 
-        if (shotIntervalCount >= BulletState.Instance.bulletInterval)
-        {
-            isShot = false;
-        }
+            }
+
+            if (shotIntervalCount >= BulletState.Instance.bulletInterval)
+            {
+                isShot = false;
+            }
+        
+        
     }
     #endregion
 
@@ -95,6 +108,8 @@ public class PlayerController : MonoBehaviour
     #region 弾をとばす
     protected void ShootBullet()
     {
+       if (!(KindDate.Instance.canCurveBullet || KindDate.Instance.canHomingBullet|| KindDate.Instance.canLongBullet))
+       {
         // プレイヤーの向きを取得
         Vector3 playerDirection = transform.forward;
 
@@ -105,13 +120,31 @@ public class PlayerController : MonoBehaviour
         bullet.transform.forward = playerDirection;
 
         // 弾の速度や方向を設定
-        bullet.GetComponent<Rigidbody>().velocity = playerDirection*BulletState.Instance.bulletSpeed;
+        bullet.GetComponent<Rigidbody>().velocity = playerDirection * BulletState.Instance.bulletSpeed;
+       }
+        else if(KindDate.Instance.canCurveBullet || KindDate.Instance.canHomingBullet || KindDate.Instance.canLongBullet)
+        {
+
+            // プレイヤーの向きを取得
+            Vector3 playerDirection = transform.forward;
+
+            // 弾を生成
+            GameObject bullet = Instantiate(bulletObj, bulletTrans.position, Quaternion.identity);
+
+            // 弾の向きをプレイヤーの向きに合わせる
+            bullet.transform.forward = playerDirection;
+
+            // 弾の速度や方向を設定
+            bullet.GetComponent<Rigidbody>().velocity = playerDirection ;
+
+
+        }
     }
     #endregion
 
 
     #region Xbox入力
-    protected void InputContorol(string anim)
+        protected void InputContorol(string anim)
     {
         // 使用するプレイヤー入力を取得
         var playerInput = InputSystem.GetDevice<Gamepad>();
@@ -132,7 +165,7 @@ public class PlayerController : MonoBehaviour
             moveDirection = transform.forward * DoragonDate.Instance.moveSpeed;
             moveDirection.y = 0;
 
-            con.Move(moveDirection * Time.deltaTime * stickInput.y);
+             con.Move(moveDirection * Time.deltaTime * stickInput.y);
 
             if (stickInput.x != 0 || stickInput.y != 0)
             {
@@ -170,6 +203,7 @@ public class PlayerController : MonoBehaviour
         forward.y = 0;
         Vector3 moveVec = forward * Time.deltaTime * inputVertical;
         //con.Move(forward * Time.deltaTime * inputVertical);
+
         transform.position = new Vector3(transform.position.x + moveVec.x, transform.position.y + moveVec.y, transform.position.z + moveVec.z);
         UpdateCameraPosition();
 

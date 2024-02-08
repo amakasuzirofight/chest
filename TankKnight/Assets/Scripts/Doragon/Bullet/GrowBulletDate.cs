@@ -5,7 +5,7 @@ using UnityEngine;
 public class GrowBulletDate : MonoBehaviour
 {
     /// <summary>
-    /// 0,弾速、1連射速度、2威力、3射程、4発射個数
+    /// 0,弾速、1連射速度、2威力、3射程、4発射個数　
     /// </summary>
     [Header("必用なコスト")] public int[] lvCost;
     [Header("現在のコスト")] public　int currentCost;//他のスクリプトに書き込む変数
@@ -17,52 +17,107 @@ public class GrowBulletDate : MonoBehaviour
     [SerializeField] float[] growbulletNum;
 
     [SerializeField] int[] NextLvCost;//次の経験値
-    
+
+
+    //弾の種類
+    /// <summary>
+    /// 0：貫通弾　1：遅延弾 2:散弾　3スリップダメージ弾　4ロングバレット　5ホーミング　6カーブ　
+    /// </summary>
+    [SerializeField] int[] bulletKindPlice;
     // Start is called before the first frame update
     void Start()
     {
         
     }
+    #region 弾の種類の解放
+    public void LiberationPiercingBullet()
+    {
+        if(currentCost>= bulletKindPlice[0])
+        {
+            KindDate.Instance.canPiercingBullet = true;
+        }
+    }
+    public void LiberationSlowBullet()
+    {
+        if (currentCost >= bulletKindPlice[1])
+        {
+            KindDate.Instance.canSlowBullet = true;
+        }
+    }
+    public void LiberationDiffusionBullet()
+    {
+        if (currentCost >= bulletKindPlice[2])
+        {
+            KindDate.Instance.canDiffusionBullet = true;
+        }
+    }
+    public void LiberationSlipDamegeBullet()
+    {
+        if (currentCost >= bulletKindPlice[2])
+        {
+            KindDate.Instance.canSlipDamegeBullet = true;
+        }
+    }
+    public void LiberationLongBullet()
+    {
+        if (currentCost >= bulletKindPlice[2])
+        {
+            KindDate.Instance.canLongBullet = true;
+        }
+    }
+    public void LiberationHomingBullet()
+    {
+        if (currentCost >= bulletKindPlice[2])
+        {
+            KindDate.Instance.canHomingBullet = true;
+        }
+    }
+    public void LiberationCurveBullet()
+    {
+        if (currentCost >= bulletKindPlice[2])
+        {
+            KindDate.Instance.canCurveBullet = true;
+        }
+    }
+    #endregion
 
+    #region 弾の成長
     public void GrowSpeed()
     {
         if (lvCost[0] <= currentCost)
         {
-            if (BulletState.Instance.currentLv[0] == 1)
+            switch(BulletState.Instance.currentLv[0])
             {
-                GrowState(ref BulletState.Instance.bulletSpeed,growSpeed, 0, 0,0);
-                BulletState.Instance.currentLv[0]++;
-                Debug.Log(BulletState.Instance.bulletSpeed);
-            } 
-            else if (BulletState.Instance.currentLv[0] == 2)
-            {
-                GrowState(ref BulletState.Instance.bulletSpeed, growSpeed, 1, 1, 0);
-                BulletState.Instance.currentLv[0]++;
-                Debug.Log(BulletState.Instance.bulletSpeed);
-            }
-            else if (BulletState.Instance.currentLv[0] == 3)
-            {
-                GrowState(ref BulletState.Instance.bulletSpeed, growSpeed, 2, 2, 0);
-                BulletState.Instance.currentLv[0]++;
-                Debug.Log(BulletState.Instance.bulletSpeed);
-            }
-            else if (BulletState.Instance.currentLv[0] == 4)
-            {
-                GrowState(ref BulletState.Instance.bulletSpeed, growSpeed, 3, 3, 0);
-                BulletState.Instance.currentLv[0]++;
-                Debug.Log(BulletState.Instance.bulletSpeed);
-            }
-            else if (BulletState.Instance.currentLv[0] == 5)
-            {
-                GrowState(ref BulletState.Instance.bulletSpeed, growSpeed, 4, 4, 0);
-                BulletState.Instance.currentLv[0]++;
-                Debug.Log(BulletState.Instance.bulletSpeed);
-            }
-            else if (BulletState.Instance.currentLv[0] == 6)
-            {
-                GrowState(ref BulletState.Instance.bulletSpeed, growSpeed, 5, 5, 0);
-                BulletState.Instance.currentLv[0]++;
-                Debug.Log(BulletState.Instance.bulletSpeed);
+                case 1:
+                    GrowState(ref BulletState.Instance.bulletSpeed, growSpeed, 0, 0, 0);
+                    BulletState.Instance.currentLv[0]++;
+                    Debug.Log(BulletState.Instance.bulletSpeed);
+                    break;
+                case 2:
+                    GrowState(ref BulletState.Instance.bulletSpeed, growSpeed, 1, 1, 0);
+                    BulletState.Instance.currentLv[0]++;
+                    Debug.Log(BulletState.Instance.bulletSpeed);
+                    break;
+                case 3:
+                    GrowState(ref BulletState.Instance.bulletSpeed, growSpeed, 2, 2, 0);
+                    BulletState.Instance.currentLv[0]++;
+                    Debug.Log(BulletState.Instance.bulletSpeed);
+                    break;
+                case 4:
+                    GrowState(ref BulletState.Instance.bulletSpeed, growSpeed, 3, 3, 0);
+                    BulletState.Instance.currentLv[0]++;
+                    Debug.Log(BulletState.Instance.bulletSpeed);
+                    break;
+                case 5:
+                    GrowState(ref BulletState.Instance.bulletSpeed, growSpeed, 4, 4, 0);
+                    BulletState.Instance.currentLv[0]++;
+                    Debug.Log(BulletState.Instance.bulletSpeed);
+                    break;
+                case 6:
+                    GrowState(ref BulletState.Instance.bulletSpeed, growSpeed, 5, 5, 0);
+                    BulletState.Instance.currentLv[0]++;
+                    Debug.Log(BulletState.Instance.bulletSpeed);
+                    break;
             }
         }
     }
@@ -228,5 +283,5 @@ public class GrowBulletDate : MonoBehaviour
        
     }
 
-    
+    #endregion
 }

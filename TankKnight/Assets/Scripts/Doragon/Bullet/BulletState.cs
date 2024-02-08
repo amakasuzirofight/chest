@@ -15,6 +15,5 @@ public class BulletState : Singleton<BulletState>
     public float bulletNum=1;
 
    /*[System.NonSerialized] */public int[] currentLv;
-    // シングルトンインスタンスを取得するプロパティ
    
 }
