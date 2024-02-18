@@ -4,10 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Tile Mesh
-  - Combined Mesh
-  - Rule Tile
-  - Tile
+
+  - Camera
+  - Knight
+
   layers:
   - Default
   - TransparentFX
